@@ -338,6 +338,51 @@
   .prompt-card__code::-webkit-scrollbar { width: 8px; }
   .prompt-card__code::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
   .prompt-card__code code { font-family: inherit; }
+  /* Reformas Luxury */
+  .tab--lux {
+    position: relative;
+  }
+  .tab--lux .tab__label {
+    background: linear-gradient(90deg, #c9a04a, #e8c878, #c9a04a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+  }
+  .tab--lux.is-active {
+    border-bottom-color: #c9a04a;
+  }
+  .prompt-card__num--lux {
+    background: linear-gradient(135deg, #c9a04a, #e8c878);
+    color: #1a1a1a;
+  }
+  .estancia__regla--lux {
+    background: linear-gradient(135deg, rgba(201, 160, 74, 0.10), rgba(232, 200, 120, 0.06));
+    border-left-color: #c9a04a;
+    color: var(--text);
+  }
+  .estancia__regla--lux strong {
+    color: #b48a35;
+  }
+  [data-theme="dark"] .estancia__regla--lux strong {
+    color: #e8c878;
+  }
+  .reforma-grupo {
+    margin-top: 36px;
+  }
+  .reforma-grupo__title {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .reforma-grupo__title span {
+    font-size: 22px;
+  }
   /* Footer */
   footer {
     border-top: 1px solid var(--border);
@@ -412,7 +457,7 @@
 
   <div class="tabs-wrap">
     <nav class="tabs" role="tablist" aria-label="Estancias">
-      <button class="tab is-active" role="tab" aria-selected="true" data-target="estancia-salon"><span class="tab__icon" aria-hidden="true">🛋️</span><span class="tab__label">Salón</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-principal"><span class="tab__icon" aria-hidden="true">🛏️</span><span class="tab__label">Dormitorio Principal</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-invitados"><span class="tab__icon" aria-hidden="true">🛏️</span><span class="tab__label">Dormitorio de Invitados</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-nino"><span class="tab__icon" aria-hidden="true">👦</span><span class="tab__label">Dormitorio de Niño</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-nina"><span class="tab__icon" aria-hidden="true">👧</span><span class="tab__label">Dormitorio de Niña</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-cocina"><span class="tab__icon" aria-hidden="true">🍳</span><span class="tab__label">Cocina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-bano"><span class="tab__icon" aria-hidden="true">🛁</span><span class="tab__label">Baño</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-terraza"><span class="tab__icon" aria-hidden="true">🌿</span><span class="tab__label">Terraza o Balcón</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-piscina"><span class="tab__icon" aria-hidden="true">🏊</span><span class="tab__label">Piscina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-despacho"><span class="tab__icon" aria-hidden="true">💼</span><span class="tab__label">Despacho u Oficina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-garaje"><span class="tab__icon" aria-hidden="true">🚗</span><span class="tab__label">Garaje</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-kling"><span class="tab__icon" aria-hidden="true">🎬</span><span class="tab__label">Kling AI</span></button>
+      <button class="tab is-active" role="tab" aria-selected="true" data-target="estancia-salon"><span class="tab__icon" aria-hidden="true">🛋️</span><span class="tab__label">Salón</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-principal"><span class="tab__icon" aria-hidden="true">🛏️</span><span class="tab__label">Dormitorio Principal</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-invitados"><span class="tab__icon" aria-hidden="true">🛏️</span><span class="tab__label">Dormitorio de Invitados</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-nino"><span class="tab__icon" aria-hidden="true">👦</span><span class="tab__label">Dormitorio de Niño</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-dormitorio-nina"><span class="tab__icon" aria-hidden="true">👧</span><span class="tab__label">Dormitorio de Niña</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-cocina"><span class="tab__icon" aria-hidden="true">🍳</span><span class="tab__label">Cocina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-bano"><span class="tab__icon" aria-hidden="true">🛁</span><span class="tab__label">Baño</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-terraza"><span class="tab__icon" aria-hidden="true">🌿</span><span class="tab__label">Terraza o Balcón</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-piscina"><span class="tab__icon" aria-hidden="true">🏊</span><span class="tab__label">Piscina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-despacho"><span class="tab__icon" aria-hidden="true">💼</span><span class="tab__label">Despacho u Oficina</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-garaje"><span class="tab__icon" aria-hidden="true">🚗</span><span class="tab__label">Garaje</span></button><button class="tab tab--lux" role="tab" aria-selected="false" data-target="estancia-reformas"><span class="tab__icon" aria-hidden="true">✨</span><span class="tab__label">Reformas Luxury</span></button><button class="tab" role="tab" aria-selected="false" data-target="estancia-kling"><span class="tab__icon" aria-hidden="true">🎬</span><span class="tab__label">Kling AI</span></button>
     </nav>
   </div>
 
@@ -7154,6 +7199,727 @@ Entorno: ordenado, práctico, familiar, máxima sensación de espacio aprovechad
 &lt;/environment_and_lighting&gt;</code></pre>
 </article>
   </div>
+</section><section class="estancia" id="estancia-reformas" hidden>
+  <header class="estancia__head">
+    <h2 class="estancia__title"><span class="estancia__icon" aria-hidden="true">✨</span> Reformas Luxury</h2>
+    <p class="estancia__sub">Visualización de reforma integral alto standing · 5 estancias × 3 estilos = 15 prompts</p>
+  </header>
+  <div class="estancia__regla estancia__regla--lux">
+    <strong>Diferencia clave:</strong> a diferencia del Home Staging, aquí SÍ se modifican acabados, suelos, alicatados, sanitarios, encimeras y mobiliario fijo. Lo que se conserva: la cámara, perspectiva, posición de muros, ventanas, puertas y, en piscinas, la forma del vaso. Ideal para vender el potencial de viviendas a reformar.
+  </div>
+  <div class="reforma-grupo">
+  <h3 class="reforma-grupo__title"><span aria-hidden="true">🛋️</span> Salón</h3>
+  <div class="prompt-grid">
+    <article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">01</span>
+    <div>
+      <h3 class="prompt-card__title">Diseño Sofisticado</h3>
+      <p class="prompt-card__sub">Salón · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este salón en estilo diseño sofisticado, transformando los acabados a alto standing sin alterar la posición de muros, ventanas ni puertas, y manteniendo la cámara y perspectiva originales para una comparativa antes/después creíble.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros maestros, posición de ventanas y posición de puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de reforma luxury editorial, fotorrealista, calidad revista AD, luz natural cálida cinematográfica.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en mármol calacatta dorado pulido o microcemento mate color gris perla continuo.
+* Paredes: estuco veneciano color piedra cálida en pared principal con detalle de boiserie sutil en una pared lateral; resto en blanco roto premium liso.
+* Techo: liso con foseado perimetral oculto para iluminación LED indirecta cálida.
+* Carpintería: puertas interiores enrasadas del suelo al techo en madera de nogal mate con tirador embutido.
+* Marcos de ventanas: aluminio negro mate fino tipo Steel-Look.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Sofá modular grande en bouclé color marfil con cojines en terciopelo verde oscuro y caramelo.
+* Mesa de centro escultural en mármol travertino con base de latón cepillado.
+* Sillón lounge tapizado en cuero coñac envejecido.
+* Mueble TV bajo flotante en nogal con TV frameless de 75 pulgadas.
+* Lámpara de pie escultural en latón.
+* Alfombra grande de lana en tonos crema y gris.
+* Una obra de arte amplia abstracta con pan de oro discreto.
+* Una rama escultórica grande en jarrón cerámico negro mate.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: editorial luxury, refinado, sensación de penthouse premium o villa de revista. Iluminación: foseado LED cálido + luz natural cinematográfica. Paleta: marfil, nogal, latón cepillado, mármol calacatta, verde oscuro, caramelo.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">02</span>
+    <div>
+      <h3 class="prompt-card__title">Minimalismo Premium</h3>
+      <p class="prompt-card__sub">Salón · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este salón en estilo minimalismo premium, transformando los acabados a alto standing sin alterar muros, ventanas ni puertas, y manteniendo la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de reforma luxury editorial minimalista, fotorrealista, calidad revista, luz natural difusa neutra brillante.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: microcemento continuo color blanco hueso pulido o gran formato en porcelánico mate color piedra clara.
+* Paredes: liso blanco roto premium en todas las paredes, con una pared revestida en paneles verticales finos de roble blanqueado.
+* Techo: liso blanco con foseado perimetral oculto LED.
+* Carpintería: puertas enrasadas blancas del suelo al techo con tirador embutido invisible.
+* Marcos de ventanas: aluminio blanco mate fino enrasado con la pared.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Sofá bajo modular grande en bouclé blanco roto con un solo cojín en gris piedra.
+* Mesa de centro escultural redonda baja en piedra travertino color hueso.
+* Sillón lounge minimalista en cuero blanco hueso.
+* Mueble TV enrasado totalmente integrado en pared con TV frameless de 75 pulgadas.
+* Una sola lámpara de pie minimalista en blanco mate.
+* Alfombra plana de pelo bajo en color hueso.
+* Una sola obra de arte abstracta minimalista de gran formato.
+* Una sola rama escultórica seca en jarrón blanco mate.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: galería de arte privada, máxima sensación de espacio y silencio visual. Iluminación: foseado LED indirecto + luz natural difusa neutra. Paleta: blanco roto, hueso, gris piedra, roble blanqueado, travertino claro.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">03</span>
+    <div>
+      <h3 class="prompt-card__title">Mediterráneo Premium</h3>
+      <p class="prompt-card__sub">Salón · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este salón en estilo mediterráneo premium contemporáneo, transformando los acabados a alto standing sin alterar muros, ventanas ni puertas, y manteniendo la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de villa mediterránea editorial premium, fotorrealista, calidad revista AD Spain, luz dorada mediterránea editorial.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en piedra natural travertino mate o microcemento continuo color arena cálida.
+* Paredes: estuco mediterráneo color blanco arena con textura sutil hecha a mano en todas las paredes; una pared lateral revestida en madera de olivo macizo en listones verticales.
+* Techo: liso blanco roto con vigas decorativas finas en madera de olivo natural envejecido (si la arquitectura lo permite).
+* Carpintería: puertas enrasadas del suelo al techo en madera de olivo natural mate con tirador embutido.
+* Marcos de ventanas: madera de olivo natural o aluminio color bronce mate fino.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Sofá modular grande en lino lavado color blanco arena con cojines en lino crudo, terracota suave y verde oliva oscuro.
+* Mesa de centro escultural baja en travertino macizo color arena.
+* Dos butacas en madera de olivo y cuero envejecido coñac.
+* Mueble TV bajo flotante en madera de olivo con TV frameless de 75 pulgadas.
+* Lámpara de pie de cerámica artesanal valenciana.
+* Alfombra vintage tipo bereber en tonos crema y carbón.
+* Una obra de arte amplia contemporánea inspirada en el paisaje mediterráneo.
+* Una rama grande de olivo en jarrón de cerámica artesanal.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: villa mediterránea premium editorial, atemporal, artesanal y sofisticada. Iluminación: foseado cálido + luz dorada mediterránea editorial. Paleta: blanco arena, lino crudo, olivo, terracota suave, travertino, cuero coñac, cerámica artesanal.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article>
+  </div>
+</div><div class="reforma-grupo">
+  <h3 class="reforma-grupo__title"><span aria-hidden="true">🛏️</span> Dormitorio Principal</h3>
+  <div class="prompt-grid">
+    <article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">04</span>
+    <div>
+      <h3 class="prompt-card__title">Diseño Sofisticado</h3>
+      <p class="prompt-card__sub">Dormitorio Principal · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este dormitorio principal en estilo diseño sofisticado, transformando acabados a alto standing sin alterar muros, ventanas ni puertas, manteniendo la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de suite premium editorial, fotorrealista, calidad revista AD, luz cálida cinematográfica.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: parquet en espiga de madera de nogal mate o microcemento continuo color taupé.
+* Paredes: pared principal del cabecero revestida en boiserie de madera de nogal mate con paneles verticales finos del suelo al techo; resto de paredes en estuco veneciano color taupé suave.
+* Techo: liso con foseado LED perimetral cálido oculto.
+* Carpintería: puertas enrasadas en madera de nogal mate con tirador embutido.
+* Marcos de ventanas: aluminio negro mate fino tipo Steel-Look.
+* Vestidor o armarios empotrados visibles con frentes lisos en nogal mate sin tiradores.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cama king con cabecero amplio capitoné en terciopelo verde oscuro o azul noche, integrado con la boiserie de fondo.
+* Ropa de cama premium en algodón blanco impoluto con manta de cachemir gris y cojines en tonos a juego.
+* Dos mesillas finas suspendidas en nogal con lámparas de pared en latón cepillado.
+* Banqueta amplia tapizada en cuero coñac envejecido a los pies.
+* Una butaca de lectura tipo Eames en una esquina con lámpara de pie escultural en latón.
+* Alfombra grande de lana en tonos crema y gris.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: suite premium tipo hotel boutique de lujo. Iluminación: foseado LED cálido + lámparas de pared + luz natural cinematográfica. Paleta: nogal mate, terciopelo verde oscuro, latón cepillado, taupé, cuero coñac.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">05</span>
+    <div>
+      <h3 class="prompt-card__title">Minimalismo Premium</h3>
+      <p class="prompt-card__sub">Dormitorio Principal · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este dormitorio principal en estilo minimalismo premium, transformando acabados a alto standing sin alterar muros, ventanas ni puertas, manteniendo la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía minimalista editorial luxury, fotorrealista, calidad revista, luz difusa neutra serena.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: microcemento continuo color blanco hueso o parquet en roble blanqueado mate.
+* Paredes: liso blanco roto premium en todas las paredes; pared del cabecero revestida en paneles verticales finos de roble blanqueado del suelo al techo.
+* Techo: liso blanco con foseado perimetral oculto LED neutro.
+* Carpintería: puertas enrasadas blancas del suelo al techo con tirador embutido invisible.
+* Marcos de ventanas: aluminio blanco mate fino enrasado.
+* Armarios empotrados visibles con frentes lisos blancos enrasados sin tiradores.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cama king con cabecero plano tapizado en bouclé blanco roto integrado en la pared de roble blanqueado.
+* Ropa de cama de lino lavado blanco roto con manta gris piedra doblada.
+* Dos mesillas finas suspendidas en roble blanqueado con dos pequeñas lámparas de pared mínimas.
+* Banqueta baja al pie de cama en bouclé.
+* Una sola butaca lounge minimalista en cuero blanco hueso.
+* Alfombra plana de pelo bajo color hueso.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: santuario zen premium, máxima serenidad visual. Iluminación: foseado LED neutro + luz natural difusa. Paleta: blanco roto, hueso, gris piedra, roble blanqueado.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">06</span>
+    <div>
+      <h3 class="prompt-card__title">Mediterráneo Premium</h3>
+      <p class="prompt-card__sub">Dormitorio Principal · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury de este dormitorio principal en estilo mediterráneo premium contemporáneo, transformando acabados a alto standing sin alterar muros, ventanas ni puertas, manteniendo la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de villa mediterránea editorial premium, fotorrealista, calidad revista AD Spain, luz dorada mediterránea editorial.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en piedra natural travertino o microcemento continuo color arena cálida.
+* Paredes: estuco mediterráneo color blanco arena con textura sutil hecha a mano; pared del cabecero revestida en madera de olivo macizo en listones verticales o en estuco encalado tradicional.
+* Techo: liso blanco roto con vigas finas decorativas en madera de olivo natural envejecido (si la arquitectura lo permite).
+* Carpintería: puertas enrasadas en madera de olivo natural mate con tirador embutido.
+* Marcos de ventanas: madera de olivo natural o aluminio color bronce mate.
+* Vestidor o armarios con frentes en lino natural tensado o madera de olivo.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cama king con cabecero amplio de madera de olivo natural macizo o ratán natural tejido fino.
+* Ropa de cama en lino lavado color blanco arena con manta de algodón terracota suave y cojines en lino crudo.
+* Dos mesillas asimétricas en madera maciza natural con dos pequeñas lámparas de cerámica artesanal valenciana.
+* Banco bajo tradicional o baúl de madera al pie.
+* Una butaca de mimbre y lino crudo en una esquina.
+* Alfombra vintage tipo bereber color crema.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: villa mediterránea editorial premium, atemporal, artesanal. Iluminación: foseado cálido + luz dorada mediterránea editorial. Paleta: blanco arena, lino crudo, olivo, terracota suave, travertino, cerámica artesanal.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article>
+  </div>
+</div><div class="reforma-grupo">
+  <h3 class="reforma-grupo__title"><span aria-hidden="true">🍳</span> Cocina</h3>
+  <div class="prompt-grid">
+    <article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">07</span>
+    <div>
+      <h3 class="prompt-card__title">Diseño Sofisticado</h3>
+      <p class="prompt-card__sub">Cocina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de esta cocina en estilo diseño sofisticado, sustituyendo mobiliario, encimeras, electrodomésticos, suelos y revestimientos a alto standing, manteniendo la posición de muros maestros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente mobiliario de cocina, encimeras, electrodomésticos, suelos y revestimientos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de cocina luxury editorial, fotorrealista, calidad revista AD, luz cálida cinematográfica premium.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en mármol calacatta dorado pulido o microcemento mate color gris perla continuo.
+* Mobiliario de cocina: muebles altos y bajos con frentes lisos enrasados en madera de nogal mate; isla central amplia con frente en mármol calacatta dorado a juego con la encimera.
+* Encimera: mármol calacatta dorado pulido en cantos rectos limpios, con cascada (waterfall) en los laterales de la isla.
+* Pared frontal: revestimiento continuo del mismo mármol calacatta dorado del techo a la encimera (sin separación visible entre encimera y pared).
+* Tirador: embutido invisible en todos los frentes.
+* Techo: liso con foseado perimetral LED cálido oculto.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Electrodomésticos: vitrocerámica de inducción flush integrada en encimera, horno y microondas combi en cristal negro mate empotrados en columna, frigorífico americano integrado tras frente de nogal, campana extractora integrada en techo invisible, grifo monomando en latón cepillado mate.
+* Tres taburetes de bar premium en cuero coñac envejecido con estructura de latón.
+* Iluminación: tres lámparas colgantes escultoricas en latón cepillado sobre la isla.
+* Decoración encimera mínima: una tabla de mármol con un par de objetos cerámicos artesanales premium, un olivo pequeño en jarrón de latón.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: cocina editorial premium tipo penthouse de lujo. Iluminación: foseado LED cálido + lámparas colgantes premium + luz natural cinematográfica. Paleta: nogal mate, mármol calacatta dorado, latón cepillado mate, cuero coñac.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">08</span>
+    <div>
+      <h3 class="prompt-card__title">Minimalismo Premium</h3>
+      <p class="prompt-card__sub">Cocina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de esta cocina en estilo minimalismo premium, sustituyendo mobiliario, encimeras, electrodomésticos, suelos y revestimientos a alto standing, manteniendo la posición de muros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente mobiliario de cocina, encimeras, electrodomésticos, suelos y revestimientos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de cocina minimalista premium editorial, fotorrealista, calidad revista, luz natural difusa brillante.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: microcemento continuo color blanco hueso o gran formato en porcelánico mate color piedra clara.
+* Mobiliario de cocina: muebles altos y bajos con frentes lisos enrasados en blanco mate premium; isla central amplia en blanco mate con encimera en piedra blanca neutra mate.
+* Encimera: piedra natural cuarzo blanco mate o piedra Dekton color hueso, cantos rectos finos, con cascada (waterfall) en la isla.
+* Pared frontal: revestimiento continuo de la misma piedra blanca mate del techo a la encimera.
+* Tirador: embutido invisible en todos los frentes (cocina sin tiradores).
+* Techo: liso blanco con foseado perimetral LED neutro oculto.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Electrodomésticos: vitrocerámica de inducción flush invisible integrada, horno y microondas combi blancos mate en columna empotrada, frigorífico integrado tras frente blanco mate, campana en techo invisible, grifo monomando flush en blanco mate.
+* Tres taburetes minimalistas en blanco con asiento de roble blanqueado.
+* Iluminación: empotrada cenital limpia + foseado LED.
+* Decoración encimera mínima: una sola pieza cerámica blanca, un único bol con frutas verdes.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: cocina editorial galería, máxima sensación de silencio visual y amplitud. Iluminación: foseado LED neutro + luz natural difusa brillante. Paleta: blanco mate, piedra blanca, roble blanqueado, hueso.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">09</span>
+    <div>
+      <h3 class="prompt-card__title">Mediterráneo Premium</h3>
+      <p class="prompt-card__sub">Cocina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de esta cocina en estilo mediterráneo premium contemporáneo, sustituyendo mobiliario, encimeras, electrodomésticos, suelos y revestimientos a alto standing, manteniendo la posición de muros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente mobiliario de cocina, encimeras, electrodomésticos, suelos y revestimientos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de cocina mediterránea editorial premium, fotorrealista, calidad revista AD Spain, luz dorada mediterránea editorial.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en piedra natural travertino o microcemento continuo color arena cálida.
+* Mobiliario de cocina: muebles altos y bajos en madera de olivo macizo con frentes lisos y veta natural visible; isla central amplia en madera de olivo con encimera en travertino.
+* Encimera: travertino macizo mate con cantos rectos y cascada (waterfall) en los laterales de la isla.
+* Pared frontal: revestimiento continuo en travertino o en azulejos artesanales valencianos color blanco arena hechos a mano (con textura sutil irregular) del techo a la encimera.
+* Tirador: embutido invisible o pequeño tirador artesanal en latón envejecido.
+* Techo: liso blanco roto con vigas finas decorativas en madera de olivo (si la arquitectura lo permite).
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Electrodomésticos: vitrocerámica de inducción flush integrada en encimera de travertino, horno y microondas combi premium empotrados en columna con frente de olivo, frigorífico integrado tras frente de olivo, campana en techo invisible, grifo monomando cuello de cisne en latón cepillado mate.
+* Tres taburetes de bar en madera de olivo macizo con asiento de cuero envejecido coñac o lino crudo.
+* Iluminación: tres lámparas colgantes artesanales en cerámica valenciana o latón envejecido sobre la isla.
+* Decoración encimera mínima: un bol de cerámica artesanal con limones, una jarra de aceite de oliva premium, una rama de olivo en jarrón artesanal.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: cocina villa mediterránea editorial premium, atemporal, artesanal. Iluminación: foseado cálido + lámparas colgantes artesanales + luz dorada mediterránea editorial. Paleta: olivo, travertino, latón envejecido, blanco arena, cuero coñac, cerámica artesanal.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article>
+  </div>
+</div><div class="reforma-grupo">
+  <h3 class="reforma-grupo__title"><span aria-hidden="true">🛁</span> Baño</h3>
+  <div class="prompt-grid">
+    <article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">10</span>
+    <div>
+      <h3 class="prompt-card__title">Diseño Sofisticado</h3>
+      <p class="prompt-card__sub">Baño · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de este baño en estilo diseño sofisticado, sustituyendo sanitarios, grifería, alicatados, suelos, plato de ducha y bañera a alto standing, manteniendo la posición de muros maestros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente sanitarios, grifería, alicatados, suelos y elementos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de baño luxury editorial premium, fotorrealista, calidad revista AD, luz cálida cinematográfica.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en mármol calacatta dorado pulido o microcemento mate color gris perla.
+* Paredes: revestimiento continuo del mismo mármol calacatta dorado del suelo al techo, con vetas naturales destacadas en pared principal.
+* Plato de ducha walk-in: extra-amplio enrasado al suelo con mampara fija de vidrio transparente con perfilería en latón cepillado mate.
+* Bañera exenta: bañera de diseño esculpida en piedra natural calacatta o material composite blanco mate de forma orgánica (si el baño tiene espacio).
+* Mueble de lavabo: mueble suspendido flotante en madera de nogal mate con dos lavabos sobre encimera en mármol calacatta dorado.
+* Sanitarios suspendidos premium en cerámica blanca mate.
+* Techo: liso con foseado LED cálido perimetral oculto.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Grifería: monomando en latón cepillado mate en todos los puntos (lavabo, ducha, bañera).
+* Cabezal de ducha: lluvia overhead grande premium + ducha de mano + columna lateral integrada.
+* Espejo grande retroiluminado con marco fino en latón.
+* Toallas premium en blanco hotel dobladas en pila.
+* Bandeja amplia de mármol con productos de baño premium en frascos de cristal ámbar.
+* Un taburete bajo en madera de nogal junto a la bañera con toalla doblada.
+* Una orquídea blanca grande en maceta cerámica negra mate.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: baño tipo suite hotel boutique luxury. Iluminación: foseado LED cálido + apliques laterales + luz natural cinematográfica. Paleta: mármol calacatta dorado, nogal mate, latón cepillado, blanco hotel.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">11</span>
+    <div>
+      <h3 class="prompt-card__title">Minimalismo Premium</h3>
+      <p class="prompt-card__sub">Baño · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de este baño en estilo minimalismo premium, sustituyendo sanitarios, grifería, alicatados, suelos, ducha y bañera a alto standing, manteniendo la posición de muros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente sanitarios, grifería, alicatados, suelos y elementos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de baño minimalista premium editorial, fotorrealista, calidad revista, luz natural difusa neutra.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: microcemento continuo color blanco hueso o gran formato en porcelánico mate color piedra clara, mismo material en suelo y plato de ducha sin separación visible.
+* Paredes: revestimiento continuo del mismo material que el suelo del techo al suelo en todas las paredes (sensación monolítica).
+* Plato de ducha walk-in: enrasado, sin mampara visible o con vidrio fijo extra-fino sin perfilería.
+* Bañera exenta: bañera ovalada esculpida en composite blanco mate de forma pura geométrica (si el baño tiene espacio).
+* Mueble de lavabo: mueble suspendido flotante enrasado en blanco mate con un único lavabo escultórico en piedra blanca integrado.
+* Sanitarios suspendidos premium en cerámica blanca mate.
+* Techo: liso blanco con foseado LED neutro perimetral oculto.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Grifería: monomando flush en blanco mate o cromo cepillado mate en todos los puntos.
+* Cabezal de ducha: lluvia overhead empotrado en techo (invisible).
+* Espejo grande sin marco enrasado en pared con retroiluminación LED indirecta.
+* Toallas premium en blanco impoluto dobladas en pila perfecta.
+* Una sola pieza cerámica blanca mate con productos básicos.
+* Una sola rama escultórica seca en jarrón blanco mate.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: spa monolítico, máxima sensación de calma y pureza. Iluminación: foseado LED neutro + luz natural difusa. Paleta: blanco mate, hueso, piedra clara, cromo cepillado mate.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">12</span>
+    <div>
+      <h3 class="prompt-card__title">Mediterráneo Premium</h3>
+      <p class="prompt-card__sub">Baño · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury integral de este baño en estilo mediterráneo premium contemporáneo, sustituyendo sanitarios, grifería, alicatados, suelos, ducha y bañera a alto standing, manteniendo la posición de muros, ventanas y puertas, y conservando la cámara y perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara, posición de muros, ventanas y puertas. Permitido cambiar completamente sanitarios, grifería, alicatados, suelos y elementos.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía de baño mediterráneo editorial premium, fotorrealista, calidad revista AD Spain, luz dorada mediterránea editorial.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Suelo: gran formato en piedra natural travertino o microcemento continuo color arena cálida.
+* Paredes: estuco mediterráneo artesanal color blanco arena con textura hecha a mano (acabado tadelakt) en todas las paredes; pared de la ducha y bañera revestidas en travertino macizo.
+* Plato de ducha walk-in: enrasado, en travertino macizo a juego con la pared, con mampara fija de vidrio con perfilería en latón envejecido mate.
+* Bañera exenta: bañera ovalada esculpida en piedra natural travertino o composite color blanco arena de forma orgánica (si el baño tiene espacio).
+* Mueble de lavabo: mueble suspendido flotante en madera de olivo macizo con un lavabo escultórico en piedra travertino integrado.
+* Sanitarios suspendidos premium en cerámica blanca mate.
+* Techo: liso blanco roto con foseado LED cálido oculto.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Grifería: monomando en latón cepillado envejecido mate en todos los puntos.
+* Cabezal de ducha: lluvia overhead premium + ducha de mano en latón envejecido.
+* Espejo orgánico de forma irregular con marco fino en latón envejecido.
+* Toallas en lino lavado color blanco arena.
+* Bandeja de travertino con jabones artesanales en cerámica local y aceites en botes de cristal ámbar.
+* Una rama grande de olivo en jarrón artesanal valenciano.
+* Un taburete tradicional de madera de olivo junto a la bañera con toalla doblada.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: baño tipo villa mediterránea editorial, atemporal, artesanal. Iluminación: foseado LED cálido + luz dorada mediterránea editorial. Paleta: blanco arena, travertino, olivo, latón envejecido, cerámica artesanal.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article>
+  </div>
+</div><div class="reforma-grupo">
+  <h3 class="reforma-grupo__title"><span aria-hidden="true">🏊</span> Piscina</h3>
+  <div class="prompt-grid">
+    <article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">13</span>
+    <div>
+      <h3 class="prompt-card__title">Diseño Sofisticado</h3>
+      <p class="prompt-card__sub">Piscina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury del área de piscina existente en estilo diseño sofisticado, sustituyendo alicatado de la piscina, deck, vegetación, mobiliario e iluminación a alto standing, manteniendo la forma y dimensiones de la piscina, la cámara y la perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara y la forma/dimensiones de la piscina (sin cambiar su silueta ni tamaño). Permitido cambiar el alicatado interior de la piscina, el material del deck circundante, mobiliario, vegetación e iluminación.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía editorial de villa de lujo, fotorrealista, calidad revista AD, luz cálida cinematográfica de atardecer.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Alicatado interior de piscina: gresite de alta gama color verde oscuro profundo o azul noche con efecto degradado de profundidad, dando un agua de color verde oscuro o azul oscuro cinematográfico.
+* Deck circundante: piedra natural color piedra oscura mate o microcemento exterior continuo color carbón.
+* Bordillo de piscina: piedra natural a juego con cantos rectos limpios y rebosadero perimetral discreto tipo infinity edge en un lateral.
+* Iluminación subacuática: LED integrado cálido tenue.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cuatro tumbonas premium de diseño en estructura de aluminio negro mate con cojines amplios color carbón.
+* Una sombrilla escultórica grande en lona color crema con estructura de aluminio negro.
+* Daybed amplio exterior bajo pérgola moderna metálica con cortinas exteriores de lino color piedra.
+* Mesa lateral baja en piedra natural oscura.
+* Vegetación: maceteros arquitectónicos grandes en piedra natural oscura con palmeras esculturales y plantas tipo Strelitzia.
+* Iluminación perimetral: faroles bajos integrados en el deck + uplighting cálido en palmeras.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: piscina villa premium tipo Beverly Hills o Costa Brava de revista. Iluminación: cálida cinematográfica de atardecer + LED subacuática cálida + uplighting en vegetación. Paleta: piedra oscura, negro mate, agua verde oscuro o azul noche, crema, verde palmera.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">14</span>
+    <div>
+      <h3 class="prompt-card__title">Minimalismo Premium</h3>
+      <p class="prompt-card__sub">Piscina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury del área de piscina existente en estilo minimalismo premium, sustituyendo alicatado de piscina, deck, vegetación, mobiliario e iluminación a alto standing, manteniendo la forma y dimensiones de la piscina, la cámara y la perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara y la forma/dimensiones de la piscina (sin cambiar su silueta ni tamaño). Permitido cambiar alicatado interior, deck, mobiliario, vegetación e iluminación.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía minimalista premium editorial, fotorrealista, calidad revista, luz natural difusa brillante.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Alicatado interior de piscina: gresite premium color blanco hueso o piedra natural blanca, dando un agua de color azul muy claro casi turquesa pálido cristalino.
+* Deck circundante: piedra natural color piedra clara mate o porcelánico de gran formato color hueso continuo.
+* Bordillo de piscina: piedra natural a juego con cantos rectos limpios y rebosadero perimetral infinity edge.
+* Iluminación subacuática: LED integrado neutro tenue.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cuatro tumbonas minimalistas premium con estructura de aluminio blanco mate y cojines blancos.
+* Una sombrilla grande mínima color blanco.
+* Daybed amplio exterior cubierto con cojines blancos bajo una pérgola minimalista blanca.
+* Mesa lateral baja escultórica en piedra blanca mate.
+* Vegetación mínima: dos o tres maceteros monumentales blancos mate con un olivo escultórico grande y palmeras esbeltas.
+* Iluminación perimetral: integrada en el deck (puntos LED enrasados).
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: piscina galería minimalista premium tipo villa Ibiza o Mallorca contemporánea. Iluminación: natural difusa brillante + LED enrasado neutro. Paleta: blanco mate, piedra clara, agua turquesa pálida, verde olivo, hueso.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article><article class="prompt-card">
+  <header class="prompt-card__head">
+    <span class="prompt-card__num prompt-card__num--lux">15</span>
+    <div>
+      <h3 class="prompt-card__title">Mediterráneo Premium</h3>
+      <p class="prompt-card__sub">Piscina · Reforma alto standing</p>
+    </div>
+    <button class="copy-btn" type="button" aria-label="Copiar prompt de reforma">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+      <span class="copy-btn__label">Copiar</span>
+    </button>
+  </header>
+  <pre class="prompt-card__code"><code>&lt;task&gt;
+Visualizar una reforma luxury del área de piscina existente en estilo mediterráneo premium contemporáneo, sustituyendo alicatado de piscina, deck, vegetación, mobiliario e iluminación a alto standing, manteniendo la forma y dimensiones de la piscina, la cámara y la perspectiva originales.
+&lt;/task&gt;
+
+&lt;constraints&gt;
+* Mantener exactamente la cámara y la forma/dimensiones de la piscina (sin cambiar su silueta ni tamaño). Permitido cambiar alicatado interior, deck, mobiliario, vegetación e iluminación.
+* LUXURY RENOVATION RULES: This is a high-end renovation visualization, not a staging job. You MAY upgrade floors, wall finishes, ceilings, tiling, countertops, sanitary fixtures, kitchen cabinets, built-ins, pool tiling and deck materials to high-end versions. However, KEEP the existing wall positions, room dimensions, window and door locations, and overall layout intact — this is a refurbishment, not a new build. MUST keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo so the before/after comparison is credible. Photorealistic luxury real estate photography, natural daylight, sharp focus, magazine-quality finish, no text, no watermarks, no people.
+&lt;/constraints&gt;
+
+&lt;style_and_format&gt;
+Fotografía editorial de villa mediterránea premium, fotorrealista, calidad revista AD Spain, luz dorada mediterránea editorial.
+&lt;/style_and_format&gt;
+
+&lt;finishes_and_materials&gt;
+* Alicatado interior de piscina: gresite artesanal color verde mediterráneo suave o azul mediterráneo, dando un agua de color turquesa cálido típicamente mediterráneo.
+* Deck circundante: piedra natural travertino mate o piedra caliza color arena cálida.
+* Bordillo de piscina: piedra natural travertino a juego con cantos suavemente redondeados y rebosadero perimetral discreto.
+* Iluminación subacuática: LED integrado cálido tenue.
+* Pérgola adyacente reformada en madera de olivo natural o estructura blanca encalada tradicional con vigas vistas.
+&lt;/finishes_and_materials&gt;
+
+&lt;furnishings_requirements&gt;
+* Cuatro tumbonas premium en madera de olivo macizo o teca con cojines en lino crudo color blanco arena.
+* Una sombrilla grande de lona color crema con estructura de madera.
+* Daybed amplio exterior bajo pérgola con cortinas de lino crudo y cojines en lino terracota suave.
+* Mesa lateral baja de travertino macizo con libros y una jarra cerámica artesanal.
+* Vegetación: olivos centenarios grandes en macetas de piedra natural, palmeras mediterráneas, lavanda, romero, limoneros y buganvillas en flor.
+* Iluminación perimetral: faroles de hierro envejecido + velas grandes en linternas de piedra + guirnalda cálida discreta.
+&lt;/furnishings_requirements&gt;
+
+&lt;environment_and_lighting&gt;
+Entorno: villa mediterránea editorial premium, atemporal, artesanal, tipo finca de revista en Mallorca o Costa Valenciana. Iluminación: dorada mediterránea editorial + LED subacuática cálida + velas. Paleta: lino crudo, olivo, travertino, agua turquesa cálida mediterránea, piedra natural, fucsia buganvilla.
+&lt;/environment_and_lighting&gt;</code></pre>
+</article>
+  </div>
+</div>
 </section><section class="estancia" id="estancia-kling" hidden>
   <header class="estancia__head">
     <h2 class="estancia__title"><span class="estancia__icon" aria-hidden="true">🎬</span> Kling AI · Transiciones</h2>

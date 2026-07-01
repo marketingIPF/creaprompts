@@ -177,12 +177,6 @@ button, input {
   padding: 14px 20px 0;
   overflow-x: auto;
   border-bottom: 1px solid var(--border);
-  transition: opacity .15s ease;
-}
-
-.libtabs.disabled {
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .libtab {
@@ -321,7 +315,8 @@ button, input {
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--orange);
+  color: #fff;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.6);
   margin-bottom: 6px;
 }
 

@@ -107,6 +107,11 @@ export default function App() {
   const q = normalize(query.trim());
   const searching = q.length > 0;
 
+  const handleTabClick = (id) => {
+    setQuery('');
+    setActiveLib(id);
+  };
+
   const handleSelectStyle = (styleTitle) => {
     setQuery(styleTitle);
   };
@@ -211,12 +216,12 @@ export default function App() {
 
       <Hero onSelectStyle={handleSelectStyle} />
 
-      <div className={`libtabs${searching ? ' disabled' : ''}`}>
+      <div className="libtabs">
         {LIBRARIES.map((lib) => (
           <button
             key={lib.id}
-            className={`libtab${lib.id === activeLib ? ' active' : ''}`}
-            onClick={() => setActiveLib(lib.id)}
+            className={`libtab${lib.id === activeLib && !searching ? ' active' : ''}`}
+            onClick={() => handleTabClick(lib.id)}
           >
             <span>{lib.emoji}</span>
             <span>{lib.label}</span>
@@ -224,8 +229,8 @@ export default function App() {
           </button>
         ))}
         <button
-          className={`libtab${activeLib === FAVORITES_TAB.id ? ' active' : ''}`}
-          onClick={() => setActiveLib(FAVORITES_TAB.id)}
+          className={`libtab${activeLib === FAVORITES_TAB.id && !searching ? ' active' : ''}`}
+          onClick={() => handleTabClick(FAVORITES_TAB.id)}
         >
           <span>{FAVORITES_TAB.emoji}</span>
           <span>{FAVORITES_TAB.label}</span>

@@ -3,66 +3,143 @@
     "id": "kling-salón",
     "emoji": "🛋️",
     "title": "SALÓN",
-    "prompt": "Smooth cinematic transformation: start with the empty/dated living room, then a soft golden light sweeps across the room from left to right like a magic wave, and as it passes, the space transforms — furniture appears, sofa materializes, TV unit assembles, curtains unfold, plants grow gently, the rug rolls out. End on the fully staged living room with a subtle camera push-in. Keep the camera locked and the architecture unchanged. Style: viral real estate reveal, satisfying, cinematic, warm tones, 9:16 vertical for social media stories."
+    "prompts": [
+      {
+        "id": "kling-salón-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Smooth cinematic transformation: start with the empty/dated living room, then a soft golden light sweeps across the room from left to right like a magic wave, and as it passes, the space transforms — furniture appears, sofa materializes, TV unit assembles, curtains unfold, plants grow gently, the rug rolls out. End on the fully staged living room with a subtle camera push-in. Keep the camera locked and the architecture unchanged. Style: viral real estate reveal, satisfying, cinematic, warm tones, 9:16 vertical for social media stories."
+      }
+    ]
   },
   {
     "id": "kling-dormitorio-principal",
     "emoji": "🛏️",
     "title": "DORMITORIO PRINCIPAL",
-    "prompt": "Magical reveal: begin with the empty/old master bedroom, then a soft white shimmer sweeps from one corner across the room. As the shimmer passes, the bed appears with crisp linens unfolding, headboard rises, nightstands fade in, lamps switch on warmly, curtains drape down from existing windows, the rug rolls out softly. Camera ends with a gentle push toward the bed. Keep walls, ceiling and architecture identical. Vibe: serene, premium, cinematic, hotel-suite reveal. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-dormitorio-principal-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Magical reveal: begin with the empty/old master bedroom, then a soft white shimmer sweeps from one corner across the room. As the shimmer passes, the bed appears with crisp linens unfolding, headboard rises, nightstands fade in, lamps switch on warmly, curtains drape down from existing windows, the rug rolls out softly. Camera ends with a gentle push toward the bed. Keep walls, ceiling and architecture identical. Vibe: serene, premium, cinematic, hotel-suite reveal. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-dormitorio-de-invitados",
     "emoji": "🛏️",
     "title": "DORMITORIO DE INVITADOS",
-    "prompt": "Elegant transformation: start on the bare guest bedroom, then a soft beam of warm light glides slowly across the room. As the beam passes, the bed appears, headboard rises, bedding folds neatly, throws drape, nightstands materialize with lamps turning on, curtains gracefully unfold over existing windows, the rug appears beneath. End with a slow camera dolly forward. Architecture untouched. Style: clean, welcoming, viral hotel-style reveal. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-dormitorio-de-invitados-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Elegant transformation: start on the bare guest bedroom, then a soft beam of warm light glides slowly across the room. As the beam passes, the bed appears, headboard rises, bedding folds neatly, throws drape, nightstands materialize with lamps turning on, curtains gracefully unfold over existing windows, the rug appears beneath. End with a slow camera dolly forward. Architecture untouched. Style: clean, welcoming, viral hotel-style reveal. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-dormitorio-de-niño",
     "emoji": "👦",
     "title": "DORMITORIO DE NIÑO",
-    "prompt": "Playful viral reveal: begin with the empty boy's bedroom, then small sparkles burst out and swirl around the room. As they spread, the bed materializes, the headboard appears, themed cushions fly into place, the desk and chair pop up, the shelf fills with toys and books, curtains slide down on existing windows, the rug unrolls. Camera ends with a gentle push-in. Keep walls and architecture intact. Style: fun, satisfying, dynamic, social-media-ready. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-dormitorio-de-niño-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Playful viral reveal: begin with the empty boy's bedroom, then small sparkles burst out and swirl around the room. As they spread, the bed materializes, the headboard appears, themed cushions fly into place, the desk and chair pop up, the shelf fills with toys and books, curtains slide down on existing windows, the rug unrolls. Camera ends with a gentle push-in. Keep walls and architecture intact. Style: fun, satisfying, dynamic, social-media-ready. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-dormitorio-de-niña",
     "emoji": "👧",
     "title": "DORMITORIO DE NIÑA",
-    "prompt": "Dreamy magical transformation: start on the empty girl's bedroom, then soft pastel sparkles bloom across the room. As they sweep through, the bed appears with the headboard rising, bedding flowing into place, soft pastel cushions fly in, nightstand and lamp materialize, the desk pops up, fairy lights twinkle on, curtains unfurl over existing windows, a soft rug rolls out. End with a soft push-in. Architecture preserved. Style: dreamy, viral, satisfying, like a Disney-magic reveal. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-dormitorio-de-niña-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Dreamy magical transformation: start on the empty girl's bedroom, then soft pastel sparkles bloom across the room. As they sweep through, the bed appears with the headboard rising, bedding flowing into place, soft pastel cushions fly in, nightstand and lamp materialize, the desk pops up, fairy lights twinkle on, curtains unfurl over existing windows, a soft rug rolls out. End with a soft push-in. Architecture preserved. Style: dreamy, viral, satisfying, like a Disney-magic reveal. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-cocina",
     "emoji": "🍳",
     "title": "COCINA",
-    "prompt": "Modern viral transformation: start on the dated kitchen, then a clean horizontal light wave sweeps across the room. As it passes, the appliances upgrade — old cooktop becomes a modern induction, oven and microwave glow into a sleek built-in version, the hood updates, the faucet morphs into a modern one, counter stools appear at the island, decor and plants pop into place, pendant lights switch on. KEEP THE CABINET STRUCTURE EXACTLY THE SAME — only appliances and decor change. End with a satisfying camera push toward the island. Style: clean, premium, viral kitchen makeover. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-cocina-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Modern viral transformation: start on the dated kitchen, then a clean horizontal light wave sweeps across the room. As it passes, the appliances upgrade — old cooktop becomes a modern induction, oven and microwave glow into a sleek built-in version, the hood updates, the faucet morphs into a modern one, counter stools appear at the island, decor and plants pop into place, pendant lights switch on. KEEP THE CABINET STRUCTURE EXACTLY THE SAME — only appliances and decor change. End with a satisfying camera push toward the island. Style: clean, premium, viral kitchen makeover. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-baño",
     "emoji": "🛁",
     "title": "BAÑO",
-    "prompt": "Spa-style smooth transformation: start on the dated bathroom, then a gentle steam-like mist drifts across the room. As it dissipates, the faucet upgrades into a modern one, mirror updates, towels appear neatly folded, a plant or branches pop up, candles light themselves, accessories materialize, curtains drape over existing windows. End with a soft, almost cinematic push-in. The structure of the bathroom remains identical — only fixtures and decor evolve. Style: relaxing, premium, viral spa reveal. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-baño-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Spa-style smooth transformation: start on the dated bathroom, then a gentle steam-like mist drifts across the room. As it dissipates, the faucet upgrades into a modern one, mirror updates, towels appear neatly folded, a plant or branches pop up, candles light themselves, accessories materialize, curtains drape over existing windows. End with a soft, almost cinematic push-in. The structure of the bathroom remains identical — only fixtures and decor evolve. Style: relaxing, premium, viral spa reveal. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-terraza-/-balcón",
     "emoji": "🌿",
     "title": "TERRAZA / BALCÓN",
-    "prompt": "Cinematic outdoor reveal: begin on the empty balcony at the same camera angle, then a warm sunset light sweeps gently across the space. As it passes, the outdoor sofa appears, cushions plump up, the coffee table materializes, plants grow in their pots, string lights switch on twinkling overhead, curtains drape down, a rug unrolls. End with a slow gentle push-out to reveal the full ambiance. Architecture preserved. Style: aspirational, viral, golden-hour magic. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-terraza-/-balcón-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Cinematic outdoor reveal: begin on the empty balcony at the same camera angle, then a warm sunset light sweeps gently across the space. As it passes, the outdoor sofa appears, cushions plump up, the coffee table materializes, plants grow in their pots, string lights switch on twinkling overhead, curtains drape down, a rug unrolls. End with a slow gentle push-out to reveal the full ambiance. Architecture preserved. Style: aspirational, viral, golden-hour magic. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-piscina",
     "emoji": "🏊",
     "title": "PISCINA",
-    "prompt": "Luxury resort-style viral transformation: start on the bare/dated pool area (pool itself unchanged in shape and size), then a shimmering light sweeps across the deck like a wave. As the light passes, sun loungers appear and align, cushions plump up, a side table materializes with two glasses, large planters with palms and olive trees grow gently, string lights or lanterns illuminate, curtains drape from existing pergola, the deck looks freshly cleaned. End with a slow cinematic push-out revealing the whole pool area at golden hour. THE POOL'S SHAPE AND STRUCTURE NEVER CHANGE. Style: luxurious, aspirational, scroll-stopping. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-piscina-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Luxury resort-style viral transformation: start on the bare/dated pool area (pool itself unchanged in shape and size), then a shimmering light sweeps across the deck like a wave. As the light passes, sun loungers appear and align, cushions plump up, a side table materializes with two glasses, large planters with palms and olive trees grow gently, string lights or lanterns illuminate, curtains drape from existing pergola, the deck looks freshly cleaned. End with a slow cinematic push-out revealing the whole pool area at golden hour. THE POOL'S SHAPE AND STRUCTURE NEVER CHANGE. Style: luxurious, aspirational, scroll-stopping. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-despacho-/-oficina",
     "emoji": "💼",
     "title": "DESPACHO / OFICINA",
-    "prompt": "Smooth professional transformation: start on the empty office, then a warm focused light sweeps across the room from one side to the other. As it passes, the desk materializes, the chair rolls into place, the monitor switches on, the desk lamp lights up, books fly onto the shelf, plants appear, framed art hangs itself on the wall, curtains drape over existing windows, the rug rolls out. End with a soft camera push toward the desk. Architecture untouched. Style: productive, premium, satisfying viral reveal. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-despacho-/-oficina-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Smooth professional transformation: start on the empty office, then a warm focused light sweeps across the room from one side to the other. As it passes, the desk materializes, the chair rolls into place, the monitor switches on, the desk lamp lights up, books fly onto the shelf, plants appear, framed art hangs itself on the wall, curtains drape over existing windows, the rug rolls out. End with a soft camera push toward the desk. Architecture untouched. Style: productive, premium, satisfying viral reveal. 9:16 vertical."
+      }
+    ]
   },
   {
     "id": "kling-garaje",
     "emoji": "🚗",
     "title": "GARAJE",
-    "prompt": "Dynamic before/after transformation: start on the cluttered/empty garage, then a clean horizontal light wave sweeps across the space. As it passes, the floor cleans and polishes itself, storage cabinets appear along the wall, tools organize on a pegboard, a bicycle mounts itself on the wall, a workbench materializes, LED lights switch on, and a sleek car drives smoothly into the centered parking spot. End with a satisfying camera push-in highlighting the organized space. Architecture preserved. Style: clean, satisfying, ASMR-organization vibes, viral. 9:16 vertical."
+    "prompts": [
+      {
+        "id": "kling-garaje-1",
+        "number": null,
+        "title": "Transición antes → después",
+        "prompt": "Dynamic before/after transformation: start on the cluttered/empty garage, then a clean horizontal light wave sweeps across the space. As it passes, the floor cleans and polishes itself, storage cabinets appear along the wall, tools organize on a pegboard, a bicycle mounts itself on the wall, a workbench materializes, LED lights switch on, and a sleek car drives smoothly into the centered parking spot. End with a satisfying camera push-in highlighting the organized space. Architecture preserved. Style: clean, satisfying, ASMR-organization vibes, viral. 9:16 vertical."
+      }
+    ]
   }
 ]

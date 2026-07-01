@@ -3,13 +3,24 @@ import { HERO_STYLES } from '../data/heroStyles';
 
 export default function Hero({ onSelectStyle }) {
   const [activeIndex, setActiveIndex] = useState(0);
+  const [selectedTitle, setSelectedTitle] = useState(null);
   const [broken, setBroken] = useState(false);
   const active = HERO_STYLES[activeIndex];
 
   const handlePick = (index) => {
+    const style = HERO_STYLES[index];
+
+    if (selectedTitle === style.title) {
+      // Ya estaba seleccionado: deseleccionar y volver a la vista normal
+      setSelectedTitle(null);
+      onSelectStyle('');
+      return;
+    }
+
     setActiveIndex(index);
     setBroken(false);
-    onSelectStyle(HERO_STYLES[index].title);
+    setSelectedTitle(style.title);
+    onSelectStyle(style.title);
   };
 
   return (
@@ -32,7 +43,7 @@ export default function Hero({ onSelectStyle }) {
         {HERO_STYLES.map((style, i) => (
           <button
             key={style.title}
-            className={`hero-pill${i === activeIndex ? ' active' : ''}`}
+            className={`hero-pill${selectedTitle === style.title ? ' active' : ''}`}
             onClick={() => handlePick(i)}
           >
             {style.title}

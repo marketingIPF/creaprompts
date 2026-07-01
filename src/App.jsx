@@ -113,6 +113,7 @@ export default function App() {
   };
 
   const handleSelectStyle = (styleTitle) => {
+    setActiveLib('nano-banana');
     setQuery(styleTitle);
   };
 

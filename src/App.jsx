@@ -108,14 +108,7 @@ export default function App() {
   const searching = q.length > 0;
 
   const handleSelectStyle = (styleTitle) => {
-    const match = flat.find(
-      (item) => item.libId === 'nano-banana' && item.roomTitle.startsWith('SALÓN') && item.itemTitle === styleTitle
-    );
-    if (match) {
-      setQuery('');
-      setActiveLib('nano-banana');
-      setHighlightKey(match.key);
-    }
+    setQuery(styleTitle);
   };
 
   const globalResults = useMemo(() => {

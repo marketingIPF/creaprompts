@@ -1,31 +1,42 @@
 import { useState } from 'react';
 import { HERO_STYLES } from '../data/heroStyles';
 
-function HeroTile({ style, onSelect }) {
-  const [broken, setBroken] = useState(false);
-
-  return (
-    <button className="hero-tile" onClick={() => onSelect(style.title)}>
-      {broken ? (
-        <div className="hero-tile-fallback">🖼️</div>
-      ) : (
-        <img src={style.file} alt={style.title} onError={() => setBroken(true)} loading="lazy" />
-      )}
-      <span className="hero-tile-label">{style.title}</span>
-    </button>
-  );
-}
-
 export default function Hero({ onSelectStyle }) {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [broken, setBroken] = useState(false);
+  const active = HERO_STYLES[activeIndex];
+
+  const handlePick = (index) => {
+    setActiveIndex(index);
+    setBroken(false);
+    onSelectStyle(HERO_STYLES[index].title);
+  };
+
   return (
     <div className="hero">
-      <div className="hero-heading">
-        <span>🛋️ Estilos de Salón</span>
-        <small>Pulsa una imagen para abrir su prompt</small>
+      <div className="hero-image">
+        {broken ? (
+          <div className="hero-image-fallback">🛋️</div>
+        ) : (
+          <img src={active.file} alt={active.title} onError={() => setBroken(true)} />
+        )}
+        <div className="hero-scrim" />
+        <div className="hero-copy">
+          <span className="hero-eyebrow">🛋️ Estilos más utilizados</span>
+          <h1 className="hero-title">{active.title}</h1>
+          <span className="hero-hint">Pulsa un estilo para ver todos sus prompts, en cualquier estancia</span>
+        </div>
       </div>
-      <div className="hero-strip">
-        {HERO_STYLES.map((style) => (
-          <HeroTile key={style.title} style={style} onSelect={onSelectStyle} />
+
+      <div className="hero-pills">
+        {HERO_STYLES.map((style, i) => (
+          <button
+            key={style.title}
+            className={`hero-pill${i === activeIndex ? ' active' : ''}`}
+            onClick={() => handlePick(i)}
+          >
+            {style.title}
+          </button>
         ))}
       </div>
     </div>

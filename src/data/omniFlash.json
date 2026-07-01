@@ -1,0 +1,221 @@
+[
+  {
+    "id": "salon",
+    "emoji": "🛋️",
+    "title": "Salón",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this living room photo into a smooth 8-second cinematic reveal. A soft golden light sweeps across the room from left to right; as it passes, a cream linen sofa, a low coffee table, a TV console with a 55-inch screen, a jute rug and sheer curtains on the existing windows all materialize naturally. Keep the camera locked in the exact position and angle of the source photo. Do not change wall positions, window locations, ceiling height or floor layout. End with a subtle push-in on the fully staged room. Photorealistic, warm Mediterranean afternoon light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the room exactly as it is, add a young couple walking in through the doorway, smiling as they look around. They walk toward the sofa, sit down together, and one of them picks up a cushion while the other looks out the window. Natural, relaxed body language, soft ambient conversation sounds, no visible dialogue text. Keep lighting, camera angle and furniture identical to the previous shot."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cocina",
+    "emoji": "🍳",
+    "title": "Cocina",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this kitchen photo into a smooth 8-second modern makeover reveal. A horizontal light wave sweeps across the room; as it passes, the cooktop upgrades to a sleek induction hob, the hood and faucet modernize, bar stools appear at the island, and a small plant and pendant lights switch on. Keep the cabinet structure, wall positions and layout exactly as in the original photo — only appliances and decor change. Camera stays locked in the original position. End with a gentle push toward the island. Bright, clean, photorealistic light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the kitchen exactly as it is, add a woman entering with a bag of groceries, placing it on the island counter, then a child running in and climbing onto one of the bar stools, laughing. Add a warm, natural kitchen ambient sound (light chatter, a cup being placed down). Keep camera angle, lighting and every object from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dormitorio",
+    "emoji": "🛏️",
+    "title": "Dormitorio",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this bedroom photo into a smooth 8-second serene reveal. A soft white shimmer sweeps across the room from one corner; as it passes, the bed appears with crisp linens unfolding, a headboard rises, nightstands and warm lamps fade in, curtains drape over the existing windows, and a soft rug appears. Keep walls, ceiling, window and door positions identical to the source photo. Locked camera angle. End with a gentle push toward the bed. Calm, premium, hotel-suite lighting, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the bedroom exactly as it is, add a woman walking in slowly, sitting on the edge of the bed, running her hand over the bedding, then looking up and smiling toward the window with visible satisfaction. Soft natural ambient sound, no dialogue. Keep lighting, camera position and all furniture from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bano",
+    "emoji": "🛁",
+    "title": "Cuarto de Baño",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this bathroom photo into a smooth 8-second spa-style reveal. A gentle mist drifts across the room; as it dissipates, the faucet and mirror upgrade to modern fixtures, folded towels appear, a small plant and candles materialize, and a curtain drapes over the existing window if present. The structure of the bathroom — tiles, wall positions, tub or shower shape — remains exactly identical. Locked camera angle. End with a soft push-in. Relaxing, premium, natural light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the bathroom exactly as it is, add a person entering in a bathrobe, turning on the tap to test the water, then looking into the mirror with a relaxed, pleased expression. Add soft ambient water sound. Keep every element from the previous shot — layout, lighting, fixtures — completely unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "terraza",
+    "emoji": "🌿",
+    "title": "Terraza o Balcón",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this terrace/balcony photo into a smooth 8-second golden-hour reveal. A warm sunset light sweeps gently across the space; as it passes, an outdoor sofa appears, cushions plump up, a coffee table materializes, potted plants grow in, string lights switch on twinkling overhead, and a rug unrolls beneath. Keep the railing, floor tiles, wall positions and structure exactly as in the source photo. Locked camera angle. End with a slow gentle push-out revealing the full ambiance. Aspirational, warm golden-hour light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the terrace exactly as it is, add a couple walking out through the door, sitting down on the sofa with two glasses of wine, relaxed and smiling as they watch the sunset. Add soft ambient outdoor sound (light breeze, distant city hum). Keep lighting, camera angle and every element from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "piscina",
+    "emoji": "🏊",
+    "title": "Piscina",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this pool area photo into a smooth 8-second luxury resort-style reveal. A shimmering light sweeps across the deck like a wave; as it passes, sun loungers appear and align, cushions plump up, a side table materializes with two glasses, large planters with palms and olive trees grow in, string lights or lanterns illuminate, and the deck looks freshly cleaned. The pool's shape, size and structure never change. Locked camera angle. End with a slow cinematic push-out at golden hour. Luxurious, aspirational, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the pool area exactly as it is, add two children running and jumping into the pool with a joyful splash, while a couple relaxes on the sun loungers nearby, laughing and watching them. Add natural water-splash and laughter sounds. Keep the pool shape, deck, lighting and camera angle from the previous shot completely unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "despacho",
+    "emoji": "💼",
+    "title": "Despacho u Oficina",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this office photo into a smooth 8-second productive reveal. A warm focused light sweeps across the room from one side to the other; as it passes, a desk materializes, a chair rolls into place, a monitor switches on, a desk lamp lights up, books appear on the shelf, a plant fades in, and framed art hangs itself on the wall. Keep wall positions, window and door locations identical to the source photo. Locked camera angle. End with a soft push toward the desk. Premium, satisfying light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the office exactly as it is, add a person walking in, sitting down at the desk, opening a laptop and starting to type, with a relaxed, focused expression. Add soft ambient keyboard-typing and quiet room sound. Keep lighting, furniture and camera angle from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "garaje",
+    "emoji": "🚗",
+    "title": "Garaje",
+    "variants": [
+      {
+        "title": "Reveal estándar",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this garage photo into a smooth 8-second organized-space reveal. A clean horizontal light wave sweeps across the space; as it passes, the floor cleans and polishes itself, storage cabinets appear along the wall, tools organize on a pegboard, a bicycle mounts itself on the wall, and LED lights switch on. Keep the wall positions and structure identical to the source photo. Locked camera angle. End with a satisfying push-in highlighting the organized space. Clean, ASMR-organization vibe, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the garage exactly as it is, add a person walking in, opening the trunk of a car, and placing a bag inside, then closing it and walking off with a satisfied look. Add soft ambient sound (car door, footsteps). Keep every element from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "reformas-luxury",
+    "emoji": "✨",
+    "title": "Reformas Luxury",
+    "variants": [
+      {
+        "title": "Cocina Gourmet Luxury",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this kitchen photo into a smooth 8-second luxury gourmet-kitchen reveal. A warm cinematic light sweeps across the room; as it passes, a large marble-topped island with waterfall edges appears, integrated high-end appliances upgrade in, a built-in wine fridge glows softly, brass pendant lights switch on above the island, and a bar-stool row materializes. Keep the cabinet structure, wall positions and layout exactly as in the original photo — only finishes and decor upgrade to a premium tier. Locked camera angle. End with a slow push toward the island. Cinematic, premium, warm light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the kitchen exactly as it is, add a well-dressed couple entering, one of them uncorking a bottle of wine at the island while the other arranges appetizers on a marble board, both laughing softly. Add warm ambient sound (glass clinking, soft conversation). Keep every element from the previous shot unchanged."
+          }
+        ]
+      },
+      {
+        "title": "Baño Suite Spa Luxury",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this bathroom photo into a smooth 8-second luxury spa-suite reveal. A soft steam mist drifts across the room; as it dissipates, a freestanding oval bathtub appears, a rainfall shower with a frameless glass panel materializes, marble-effect surfaces upgrade, a floating double vanity with backlit mirror switches on, and a small orchid and folded white towels appear. The room's structure, tiles layout, window and door positions remain exactly identical. Locked camera angle. End with a soft push-in. Relaxing, premium, five-star hotel light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the bathroom exactly as it is, add a person in a white robe walking in, lighting a candle by the tub, then testing the water with their hand and smiling in anticipation. Add soft ambient water and steam sound. Keep layout, lighting and every fixture from the previous shot unchanged."
+          }
+        ]
+      },
+      {
+        "title": "Vestidor Luxury",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this room/closet photo into a smooth 8-second luxury walk-in-closet reveal. A soft warm light sweeps across the space; as it passes, custom floor-to-ceiling wardrobe units appear with glass-front doors, an internal LED lighting strip switches on, a central island with drawers and a leather-top bench materializes, and a full-length mirror appears on one wall. Keep the room's wall positions, window and door locations exactly as in the source photo. Locked camera angle. End with a slow push-in on the central island. Premium boutique lighting, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the closet exactly as it is, add a person walking in, sliding open one of the glass wardrobe doors, browsing through neatly organized clothes, and picking out a jacket with a satisfied smile. Add soft ambient sound (fabric rustling, hangers sliding). Keep lighting, layout and every element from the previous shot unchanged."
+          }
+        ]
+      },
+      {
+        "title": "Fachada / Entrada Luxury",
+        "steps": [
+          {
+            "label": "Paso 1 — Transformación",
+            "prompt": "Animate this facade/entrance photo into a smooth 8-second premium curb-appeal reveal. A warm dusk light sweeps across the frame; as it passes, the entrance door upgrades to a sleek dark-wood-and-glass pivot door, exterior wall-mounted lighting fixtures switch on, a minimalist house-number plaque appears, potted olive trees materialize on either side of the entrance, and the pathway looks freshly cleaned. Keep the building's structure, window positions and facade layout exactly as in the source photo. Locked camera angle. End with a slow push toward the entrance door. Cinematic, aspirational dusk light, 9:16 vertical."
+          },
+          {
+            "label": "Paso 2 — Con personas",
+            "prompt": "Now, keeping the facade exactly as it is, add a family walking up the pathway toward the entrance, one of them pulling out keys and opening the door as the others look around with visible excitement. Add soft ambient outdoor sound (footsteps, keys jingling). Keep lighting, camera angle and every element from the previous shot unchanged."
+          }
+        ]
+      }
+    ]
+  }
+]

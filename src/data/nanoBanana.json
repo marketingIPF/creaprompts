@@ -1,0 +1,786 @@
+[
+  {
+    "id": "salón-living-room",
+    "emoji": "🛋️",
+    "title": "SALÓN (Living Room)",
+    "rule": "**Mínimo siempre:** sofá + mesa con sillas + mueble de TV con TV.",
+    "prompts": [
+      {
+        "id": "salón-(living-room)-1",
+        "number": 1,
+        "title": "Mediterranean Valencia",
+        "prompt": "Transform this living room into a warm Mediterranean Valencian style. Add a cream linen 3-seater sofa with terracotta and olive-green cushions, a low travertine coffee table, an oak dining table with four rattan chairs, and a light oak TV console with a 55-inch flat-screen TV. Decorate with a large olive tree in a clay pot, woven jute rug, white linen curtains on existing windows, and a small still-life ceramic vase. Clean floors, walls and ceiling without altering their colors. Soft Mediterranean afternoon light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-2",
+        "number": 2,
+        "title": "Scandinavian Minimalist",
+        "prompt": "Restyle this living room in pure Scandinavian minimalist design. Place a light grey 3-seater fabric sofa with two soft white cushions and a chunky knit throw, a round white oak coffee table, a small white oak dining table with four Wishbone-style chairs, and a low matte-white TV unit with a 55-inch wall-mounted TV. Add a soft beige wool rug, sheer white linen curtains on every existing window, a tall fiddle-leaf fig in a white pot, and one minimal black-framed art print. Clean all surfaces preserving original colors. Bright diffused Nordic daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-3",
+        "number": 3,
+        "title": "Contemporary Luxury",
+        "prompt": "Convert this living room into a contemporary luxury space. Add a deep emerald-green velvet 3-seater sofa with brass-trimmed cushions, a sculptural marble coffee table with brass base, a round black marble dining table with four upholstered bouclé chairs, and a long matte-black TV console with a 65-inch frameless TV. Floor-to-ceiling champagne silk curtains on existing windows, a large abstract gold-leaf artwork, a designer arc floor lamp in brushed brass, and a deep-pile cream rug. Clean surfaces only. Cinematic warm evening light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-4",
+        "number": 4,
+        "title": "Japandi",
+        "prompt": "Restyle this living room in Japandi style (Japanese + Scandinavian fusion). Add a low-profile beige bouclé sofa, a solid walnut Noguchi-style coffee table, a low walnut dining table with four black wooden stools, and a slim walnut TV cabinet with a 55-inch TV. Decorate with a single bonsai, a black ceramic ikebana vase with dry branches, off-white raw cotton curtains on existing windows, a tatami-inspired natural fiber rug, and one minimal sumi-e ink artwork. Clean floors, walls and ceiling preserving colors. Calm soft directional light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-5",
+        "number": 5,
+        "title": "Industrial Loft",
+        "prompt": "Transform this living room into a refined industrial loft style. Add a cognac leather 3-seater Chesterfield-inspired sofa, a reclaimed wood and black iron coffee table, a metal-framed dining table with four black metal chairs and wooden seats, and a black metal-and-wood TV console with a 65-inch TV. Hang an Edison-bulb pendant cluster, place a worn Persian-style rug, install dark grey heavy linen curtains on existing windows, and add a vintage globe and books. Clean only — keep the original walls, floor and ceiling intact. Moody warm tungsten lighting. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-6",
+        "number": 6,
+        "title": "Modern Minimalist",
+        "prompt": "Restyle this living room in modern minimalist style. Add a clean-lined white bouclé 3-seater sofa with two grey cushions, a low rectangular concrete coffee table, a white round dining table with four molded plastic chairs, and a floating white-lacquer TV unit with a 55-inch ultra-thin TV. Use crisp white sheer curtains on every existing window, a flat low-pile light grey rug, one large minimalist black-and-white photograph, and a single sculptural floor vase. Clean surfaces preserving original tones. Bright neutral daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-7",
+        "number": 7,
+        "title": "Bohemian Chic",
+        "prompt": "Transform this living room into a bohemian chic retreat. Add a soft mustard-yellow 3-seater sofa layered with patterned cushions and a fringed throw, a carved wooden coffee table, a round wooden dining table with four mismatched rattan chairs, and a vintage rattan TV console with a 50-inch TV. Hang macramé wall art, place several large potted plants (monstera, palm), use cream gauze curtains on existing windows, layer a vintage Berber rug, and add brass candle holders. Clean walls, floors and ceiling without changing colors. Warm late-afternoon light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-8",
+        "number": 8,
+        "title": "Coastal / Costa Mediterránea",
+        "prompt": "Restyle this living room in light coastal Mediterranean style. Add a white slipcovered 3-seater sofa with navy and striped cushions, a whitewashed wooden coffee table with rope details, a whitewashed dining table with four wicker chairs, and a whitewashed TV console with a 55-inch TV. Use breezy off-white cotton curtains on existing windows, a natural sisal rug, a glass jar with corals, framed botanical prints, and a tall potted palm. Clean only, preserving original surfaces. Bright airy seaside daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-9",
+        "number": 9,
+        "title": "Mid-Century Modern",
+        "prompt": "Transform this living room into a Mid-Century Modern style. Add a teak-framed 3-seater sofa with mustard fabric and two geometric cushions, a kidney-shaped walnut coffee table, a round teak dining table with four Eames-style chairs, and a low slatted teak TV credenza with a 55-inch TV. Add a Sputnik chandelier, a graphic geometric rug, mustard-and-cream curtains on existing windows, and one abstract framed print. Clean surfaces only. Warm sunny light filtered through curtains. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salón-(living-room)-10",
+        "number": 10,
+        "title": "Modern Rustic Farmhouse",
+        "prompt": "Restyle this living room as a modern rustic farmhouse. Add a slipcovered linen 3-seater sofa in oatmeal with plaid cushions, a chunky reclaimed-wood coffee table, a long farmhouse dining table with four cross-back wooden chairs, and a barnwood TV console with a 55-inch TV. Hang a wrought-iron lantern pendant, add a vintage-style wool rug, ivory cotton curtains on existing windows, dried-eucalyptus branches in a stoneware jug, and a wooden ladder with throws. Clean walls, floors and ceiling without modifying their colors. Warm golden-hour light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-11",
+        "number": 11,
+        "title": "Joven Profesional",
+        "prompt": "Stage this living room for a young professional buyer (28-38) who works from home and values a current, photogenic aesthetic, keeping the original architecture untouched. Add a modular off-white bouclé 3-seater sofa with black and caramel cushions, a round low light-travertine coffee table, a small round light-wood dining table with four Wishbone-style chairs, and a low light-wood console with a 55-inch TV and a single decorative shelf with books and artisan ceramics. Add a flat natural-beige rug, a sculptural matte-metal floor lamp, sheer curtains on existing windows, a large olive or ficus plant, and a black-framed abstract artwork. Clean floors, walls and ceiling preserving colors. Bright, clean, diffused daylight, contemporary editorial feel. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-12",
+        "number": 12,
+        "title": "Familia Premium",
+        "prompt": "Stage this living room for a premium family with two children who value quality and durability, keeping the original architecture untouched. Add a large 4-seat performance-fabric chaise sofa in taupe grey with ochre and cream cushions, a wide solid-oak rectangular coffee table with a black iron base, an extendable oak dining table with six cream performance-fabric chairs, and a closed oak TV unit with a 65-inch TV and integrated storage. Add a large durable wool rug in neutral tones, premium linen curtains on existing windows, two ceramic table lamps, a built-in bookshelf with books and family objects, and a large plant. Clean surfaces preserving colors. Warm, spacious, cozy natural light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-13",
+        "number": 13,
+        "title": "Pareja Senior",
+        "prompt": "Stage this living room for a senior couple (55+) seeking comfort, warmth and low maintenance, keeping the original architecture untouched. Add a classic warm-beige high-density 3-seater sofa with two matching armchairs and burgundy and soft-gold cushions, an oval cherry-wood coffee table with subtle carved details, a round dark-wood dining table with four ivory upholstered chairs, and a classic dark-wood console with a 55-inch TV. Add a classic wool rug in soft beige and burgundy tones, double cream linen curtains on existing windows, two ceramic table lamps with ivory shades, a framed landscape painting, and a reading armchair near the window. Clean surfaces preserving colors. Soft, warm, timeless light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-14",
+        "number": 14,
+        "title": "Inversor Airbnb",
+        "prompt": "Stage this living room optimized for a short-term rental investor: photogenic, neutral, Mediterranean-personality style, resilient to intensive use, keeping the original architecture untouched. Add a cream bouclé 3-seater sofa with terracotta, olive and mustard cushions, a low round travertine coffee table, a natural-wood dining table with four rattan-and-wood chairs, and a low natural-wood console with a 50-inch TV and two decorative objects (ceramic vase, book). Add a large jute rug, sheer white linen curtains on existing windows, a large olive tree in a clay pot, a warm string-light garland, a folded natural-cotton throw on the sofa, and a framed abstract coastal artwork. Clean surfaces preserving colors. Bright, aspirational Mediterranean daylight, photoshoot-ready. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-15",
+        "number": 15,
+        "title": "Expatriado Internacional",
+        "prompt": "Stage this living room for an international buyer (Northern Europe, US, UK) seeking a premium Mediterranean essence in Valencia, keeping the original architecture untouched. Add a washed sand-white linen 3-seater sofa with raw-linen and dark-olive cushions, a square low solid-travertine coffee table, a reclaimed olive-wood dining table with four high-back chairs in wood and cognac leather, and a low olive-wood console discreetly integrating a 55-inch TV. Add a vintage Berber-style rug in cream and charcoal tones, floor-to-ceiling raw-linen curtains on existing windows, a large olive branch in an artisan ceramic vase, two traditional Valencian ceramic table lamps, a large contemporary artwork inspired by the Mediterranean landscape, and architecture books on the coffee table. Clean surfaces preserving colors. Premium editorial Mediterranean golden light, Architectural Digest feel. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "salon-16",
+        "number": 16,
+        "title": "Familia Joven con Niños Pequeños",
+        "prompt": "Stage this living room for a young first-time-buyer family (30-40) with small children, balancing practicality and current style, keeping the original architecture untouched. Add a large washable-performance-fabric light-grey chaise sofa with mustard and white cushions, a round low light-wood coffee table with soft rounded corners (child-safe), a rectangular light-wood dining table with four beige washable-fabric chairs, and a closed low light-wood unit with a 55-inch TV and hidden toy storage. Add a large washable rug in neutral tones, cream cotton curtains on existing windows, a large wicker toy basket in a corner, a folded knit throw on the sofa, a sturdy potted plant, and a warm-toned framed artwork. Clean surfaces preserving colors. Warm, lived-in but tidy, homely natural light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "dormitorio-principal-master-bedroom",
+    "emoji": "🛏️",
+    "title": "DORMITORIO PRINCIPAL (Master Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-principal-(master-bedroom)-1",
+        "number": 1,
+        "title": "Hotel Boutique Luxury",
+        "prompt": "Stage this master bedroom as a boutique-hotel suite. Add a king-size upholstered headboard in deep taupe velvet, crisp white hotel-grade bedding with a champagne throw and four pillows, two matching dark walnut nightstands with brass lamps, and a small velvet bench at the foot of the bed. Hang two black-framed abstract artworks above the bed, install heavy floor-to-ceiling champagne curtains on existing windows, and add a deep-pile cream rug. Clean floors, walls and ceiling preserving colors. Soft moody evening light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-2",
+        "number": 2,
+        "title": "Mediterranean Valencia",
+        "prompt": "Restyle this master bedroom in warm Mediterranean style. Add a king-size bed with a natural rattan headboard, ivory linen bedding with terracotta and olive cushions, two travertine nightstands with handmade ceramic lamps, and a small woven bench. Add a large olive branch in a clay vase, white linen curtains on existing windows, a natural jute rug, and a framed botanical print. Clean surfaces only without altering colors. Soft golden Mediterranean morning light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-3",
+        "number": 3,
+        "title": "Japandi Calm",
+        "prompt": "Transform this master bedroom into a serene Japandi space. Add a low-profile platform bed in light oak with off-white linen bedding and a single charcoal throw, two minimalist oak nightstands with paper lanterns, and a low oak bench. Place a single bonsai, a tatami-style natural rug, raw cotton curtains on existing windows, and one sumi-ink artwork above the bed. Clean walls, floors and ceiling preserving colors. Calm diffused daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-4",
+        "number": 4,
+        "title": "Scandinavian Minimalist",
+        "prompt": "Restyle this master bedroom in pure Scandinavian style. Add a king bed with a soft grey upholstered headboard, white linen duvet, two grey cushions and a chunky knit cream throw, two slim white-oak nightstands with matte-black lamps, and a sheepskin throw on a wooden bench. Hang one minimal line-art print, install sheer white curtains on existing windows, and add a soft beige wool rug. Clean surfaces only. Bright diffused Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-5",
+        "number": 5,
+        "title": "Contemporary Romantic",
+        "prompt": "Stage this master bedroom in contemporary romantic style. Add a king-size bed with a soft pink velvet tufted headboard, ivory bedding with blush and dusty-rose pillows, two mirrored nightstands with crystal lamps, and a velvet ottoman bench. Hang a soft watercolor floral painting, install blush silk floor-to-ceiling curtains on existing windows, and add a plush ivory rug. Clean walls, floor and ceiling preserving colors. Soft warm sunset light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-6",
+        "number": 6,
+        "title": "Modern Industrial",
+        "prompt": "Restyle this master bedroom in soft industrial style. Add a king bed with a dark grey upholstered headboard with metal trim, charcoal linen bedding, two black-metal-and-wood nightstands with Edison-bulb lamps, and a leather bench at the foot. Hang one large black-and-white photograph, install heavy linen graphite curtains on existing windows, and add a worn Persian-style rug. Clean only, preserving original surfaces. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-7",
+        "number": 7,
+        "title": "Bohemian",
+        "prompt": "Transform this master bedroom into a bohemian sanctuary. Add a king bed with a carved wooden headboard, layered earth-tone bedding with mustard, terracotta and ivory pillows and a fringed throw, two rattan nightstands with woven lampshades, and a low wooden bench with a Berber throw. Hang macramé above the bed, place several potted plants, use cream gauze curtains on existing windows, and layer a vintage Moroccan rug. Clean surfaces preserving colors. Warm sunny light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-8",
+        "number": 8,
+        "title": "Coastal Calm",
+        "prompt": "Stage this master bedroom in coastal calm style. Add a king bed with a whitewashed wood headboard, crisp white bedding with soft blue striped cushions, two whitewashed nightstands with rope-base lamps, and a light bench with a navy throw. Hang a framed seascape, use airy white cotton curtains on existing windows, add a natural sisal rug, and a glass vase with sea-grass. Clean walls, floors and ceiling without changing colors. Bright airy daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-9",
+        "number": 9,
+        "title": "Modern Minimalist Monochrome",
+        "prompt": "Restyle this master bedroom in monochrome modern minimalist style. Add a king bed with a sleek matte-black upholstered headboard, crisp white bedding with grey accents, two black slim nightstands with simple white lamps, and a black bench at the foot. Hang one large minimalist photograph, install black-out white curtains on existing windows, and add a flat low-pile grey rug. Clean only, keeping original colors. Bright neutral light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-principal-(master-bedroom)-10",
+        "number": 10,
+        "title": "Mid-Century Warm",
+        "prompt": "Transform this master bedroom into a Mid-Century Modern style. Add a king bed with a tufted mustard headboard, ivory bedding with olive and burnt-orange cushions, two walnut nightstands with brass spherical lamps, and a small teak bench. Hang a geometric framed print above the bed, install warm-tone curtains on existing windows, and add a graphic patterned rug. Clean walls, floors and ceiling preserving colors. Warm afternoon light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "dormitorio-de-invitados-guest-bedroom",
+    "emoji": "🛏️",
+    "title": "DORMITORIO DE INVITADOS (Guest Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-1",
+        "number": 1,
+        "title": "Hotel-Style Neutral",
+        "prompt": "Stage this guest bedroom as a refined hotel-style room. Add a queen bed with a beige linen headboard, hotel-crisp white bedding with two grey cushions and a folded grey throw, two matching light-wood nightstands with simple ceramic lamps, and a luggage bench at the foot. Hang one calm abstract artwork, install neutral linen curtains on existing windows, add a soft beige rug, and a small carafe with two glasses on the nightstand. Clean only. Bright welcoming daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-2",
+        "number": 2,
+        "title": "Scandinavian Light",
+        "prompt": "Restyle this guest bedroom in soft Scandinavian style. Add a queen bed with a white-oak headboard, white linen bedding with a soft blue throw, two oak nightstands with black minimal lamps, and a sheepskin on a small bench. Use sheer white curtains on existing windows, a low-pile beige rug, and one botanical line-art print. Clean walls, floors and ceiling preserving colors. Bright airy Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-3",
+        "number": 3,
+        "title": "Mediterranean Coastal",
+        "prompt": "Stage this guest bedroom in Mediterranean coastal style. Add a queen bed with a whitewashed wood headboard, ivory bedding with blue striped cushions, two rattan nightstands with white ceramic lamps, and a wicker chair in the corner. Use breezy white cotton curtains on existing windows, a natural jute rug, framed botanical prints, and a small clay vase with olive branches. Clean only, preserving colors. Bright Mediterranean morning light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-4",
+        "number": 4,
+        "title": "Modern Minimalist",
+        "prompt": "Restyle this guest bedroom in modern minimalist style. Add a queen bed with a clean grey upholstered headboard, simple white bedding with one grey cushion, two slim black metal nightstands with small white lamps, and a black bench at the foot. Use white curtains on existing windows, a flat grey rug, and one minimal black-framed print. Clean surfaces preserving original tones. Bright neutral daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-5",
+        "number": 5,
+        "title": "Boho Welcoming",
+        "prompt": "Transform this guest bedroom into a warm boho space. Add a queen bed with a rattan headboard, layered terracotta and cream bedding with patterned cushions, two woven nightstands with rattan lampshades, and a low wooden bench with a fringed throw. Hang macramé above the bed, place a small potted plant, use cream gauze curtains on existing windows, and add a vintage rug. Clean only. Warm afternoon sunlight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-6",
+        "number": 6,
+        "title": "Japandi Guest Suite",
+        "prompt": "Stage this guest bedroom in Japandi style. Add a low queen platform bed in oak, off-white linen bedding with a charcoal throw, two minimal oak nightstands with paper lanterns, and a small wooden stool. Use raw cotton curtains on existing windows, a natural fiber rug, and a sumi-ink art print. Clean walls, floors and ceiling preserving colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-7",
+        "number": 7,
+        "title": "Classic French",
+        "prompt": "Restyle this guest bedroom in classic French style. Add a queen bed with a white-and-gold tufted headboard, ivory bedding with soft pink cushions and a beige throw, two ornate white nightstands with crystal lamps, and a velvet bench at the foot. Hang a gilded mirror, install soft cream silk curtains on existing windows, add a vintage-style cream rug, and a small floral arrangement. Clean only, preserving colors. Soft warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-8",
+        "number": 8,
+        "title": "Industrial Soft",
+        "prompt": "Stage this guest bedroom in soft industrial style. Add a queen bed with a charcoal upholstered headboard, dark grey linen bedding with one mustard cushion, two metal-and-wood nightstands with Edison-bulb lamps, and a leather stool. Use grey linen curtains on existing windows, a worn Persian rug, and one black-and-white framed photograph. Clean surfaces only. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-9",
+        "number": 9,
+        "title": "Mid-Century Guest Room",
+        "prompt": "Transform this guest bedroom in Mid-Century Modern style. Add a queen bed with a teak-framed mustard headboard, white bedding with olive and rust cushions, two walnut nightstands with brass globe lamps, and a small teak chair. Hang a geometric framed print, use mustard-and-cream curtains on existing windows, and add a patterned vintage rug. Clean only, preserving original colors. Warm sunny light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-invitados-(guest-bedroom)-10",
+        "number": 10,
+        "title": "Modern Rustic",
+        "prompt": "Restyle this guest bedroom in modern rustic farmhouse style. Add a queen bed with a reclaimed-wood headboard, cream linen bedding with plaid throw and cushions, two distressed-wood nightstands with vintage-style lamps, and a wooden bench with a folded blanket. Use ivory cotton curtains on existing windows, a soft wool rug, dried lavender in a stoneware jar, and a wrought-iron lantern. Clean walls, floors and ceiling preserving colors. Warm golden light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "dormitorio-de-niño-boy's-bedroom",
+    "emoji": "👦",
+    "title": "DORMITORIO DE NIÑO (Boy's Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-1",
+        "number": 1,
+        "title": "Modern Adventure (5–10 years)",
+        "prompt": "Stage this boy's bedroom in a modern adventure theme. Add a single bed with a navy upholstered headboard, white bedding with star-pattern cushions and a mustard throw, a light-wood nightstand with a globe-shaped lamp, a small white desk with a kid's chair, and a low bookshelf. Decorate with a world-map framed print, a tepee or hanging planet mobile, navy-and-white curtains on existing windows, and a soft round rug. Clean only, preserving colors. Bright cheerful daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-2",
+        "number": 2,
+        "title": "Scandinavian Kid",
+        "prompt": "Restyle this boy's bedroom in Scandinavian kid style. Add a single white-oak bed with grey-and-white bedding, a small grey cushion, a light-wood nightstand with a wooden lamp, a small oak desk with a black chair, and a wall-mounted oak shelf with books and toys. Hang line-art animal prints, install sheer white curtains on existing windows, add a soft round wool rug, and a small wooden toy car. Clean walls, floors and ceiling preserving colors. Bright soft Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-3",
+        "number": 3,
+        "title": "Sports Theme",
+        "prompt": "Transform this boy's bedroom in a sports theme. Add a single bed with a navy headboard, white-and-navy bedding with a basketball cushion, a wooden nightstand with a sports-themed lamp, a small desk with a chair, and a shelf displaying small balls and trophies. Hang framed sports prints, install navy curtains on existing windows, and add a green rug resembling a soccer field. Clean only, keeping original surfaces intact. Energetic bright daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-4",
+        "number": 4,
+        "title": "Space Exploration",
+        "prompt": "Stage this boy's bedroom with a tasteful space-exploration theme. Add a single bed with a deep-blue headboard, navy bedding with star-pattern cushions, a wooden nightstand with a rocket lamp, a small desk with a chair, and a shelf with model planets and books. Hang a galaxy-themed art print, use star-patterned navy curtains on existing windows, and add a soft round dark-grey rug. Clean walls, floors and ceiling without altering colors. Warm cozy night-style lighting. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-5",
+        "number": 5,
+        "title": "Boho Kid",
+        "prompt": "Restyle this boy's bedroom in earthy boho style. Add a single bed with a rattan headboard, terracotta and cream bedding with patterned cushions, a woven nightstand with a small rattan lamp, a wooden desk with a kid's chair, and a hanging plant. Use natural gauze curtains on existing windows, a soft Berber-style rug, and animal-illustration framed prints. Clean only, preserving colors. Warm soft light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-6",
+        "number": 6,
+        "title": "Modern Teen Boy",
+        "prompt": "Stage this boy's bedroom for a teenage boy in modern style. Add a single bed with a charcoal upholstered headboard, white bedding with a black throw, a black metal nightstand with a modern lamp, a sleek dark-wood desk with a black ergonomic chair, and a black floating shelf with books and a small speaker. Use grey curtains on existing windows, a flat dark rug, and a framed graphic poster. Clean surfaces only. Cool focused daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-7",
+        "number": 7,
+        "title": "Nautical / Marine",
+        "prompt": "Transform this boy's bedroom in a nautical theme. Add a single bed with a whitewashed wood headboard, white-and-navy striped bedding with anchor cushions, a whitewashed nightstand with a rope-base lamp, a small desk with a chair, and a shelf with miniature boats. Hang a framed map of the sea, install navy striped curtains on existing windows, and add a soft natural rug. Clean only, keeping original colors. Bright airy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-8",
+        "number": 8,
+        "title": "Forest / Animals (Toddler 2–5)",
+        "prompt": "Stage this small boy's bedroom in a forest-animals theme. Add a single low bed with a green upholstered headboard, white bedding with fox and bear cushions, a wooden nightstand with a mushroom-shaped lamp, a small wooden desk with a kid's chair, and a low shelf with plush animals and books. Hang forest-animal framed prints, install green leaf-pattern curtains on existing windows, and add a soft round green rug. Clean walls, floors and ceiling preserving colors. Warm cozy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-9",
+        "number": 9,
+        "title": "Mid-Century Kid",
+        "prompt": "Restyle this boy's bedroom in Mid-Century Modern kid style. Add a single bed with a teak-framed mustard headboard, white bedding with olive cushions, a walnut nightstand with a small brass lamp, a teak desk with a yellow chair, and a slatted teak shelf with books. Use mustard curtains on existing windows, a geometric round rug, and a vintage-style framed print. Clean only, preserving original colors. Warm sunny light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niño-(boy's-bedroom)-10",
+        "number": 10,
+        "title": "Industrial Teen",
+        "prompt": "Transform this teen boy's bedroom in soft industrial style. Add a single bed with a black metal-frame headboard, charcoal bedding with a mustard cushion, a metal-and-wood nightstand with an Edison-bulb lamp, a wood-and-metal desk with a leather-and-metal chair, and metal-pipe shelving with books. Use dark grey curtains on existing windows, a worn Persian-style rug, and a black-and-white framed photo. Clean surfaces only. Moody warm light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "dormitorio-de-niña-girl's-bedroom",
+    "emoji": "👧",
+    "title": "DORMITORIO DE NIÑA (Girl's Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-1",
+        "number": 1,
+        "title": "Modern Pastel",
+        "prompt": "Stage this girl's bedroom in a modern pastel style. Add a single bed with a soft pink upholstered headboard, white bedding with blush and lilac cushions, a white nightstand with a pastel lamp, a small white desk with a pink chair, and a wall-mounted shelf with books and decor. Hang minimalist watercolor framed prints, install sheer pink curtains on existing windows, and add a round soft pink rug. Clean only, preserving original colors. Bright soft light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-2",
+        "number": 2,
+        "title": "Scandinavian Girl",
+        "prompt": "Restyle this girl's bedroom in soft Scandinavian style. Add a single white-oak bed with white-and-blush bedding, a soft beige cushion and a knit throw, an oak nightstand with a small white lamp, an oak desk with a beige chair, and a wall shelf with books. Hang line-art prints, install sheer white curtains on existing windows, add a soft round cream wool rug, and a small wooden doll. Clean walls, floors and ceiling preserving colors. Bright Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-3",
+        "number": 3,
+        "title": "Princess Classic",
+        "prompt": "Transform this girl's bedroom in a tasteful princess theme. Add a single bed with a tufted ivory-and-gold headboard, white bedding with pink-and-rose cushions and a soft canopy, a white-and-gold nightstand with a crystal lamp, a small white desk with an upholstered chair, and a small vanity. Use blush silk curtains on existing windows, a soft white shaggy rug, and floral framed prints. Clean only, preserving original colors. Soft warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-4",
+        "number": 4,
+        "title": "Boho Girl",
+        "prompt": "Stage this girl's bedroom in earthy boho style. Add a single bed with a rattan headboard, ivory and terracotta bedding with patterned cushions, a woven nightstand with a small rattan lamp, a wooden desk with a small chair, and hanging plants. Use cream gauze curtains on existing windows, a soft Berber-style rug, macramé wall hangings, and animal-illustration framed prints. Clean walls, floors and ceiling preserving colors. Warm soft light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-5",
+        "number": 5,
+        "title": "Pastel Unicorn / Magical",
+        "prompt": "Restyle this girl's bedroom with a magical pastel-unicorn theme. Add a single bed with a soft lilac upholstered headboard, white bedding with star and unicorn cushions, a white nightstand with a moon-shaped lamp, a small white desk with a pink chair, and a fairy-light garland. Use star-pattern lilac curtains on existing windows, a soft round pastel rug, and a framed unicorn print. Clean only, keeping original colors. Soft dreamy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-6",
+        "number": 6,
+        "title": "Modern Teen Girl",
+        "prompt": "Stage this girl's bedroom for a teen in modern style. Add a single bed with a soft beige upholstered headboard, white bedding with a blush throw, a black slim nightstand with a modern lamp, a clean white desk with a black chair, and a wall-mounted shelf with books and a small speaker. Hang framed minimalist art, install soft beige curtains on existing windows, and add a flat soft pink rug. Clean walls, floors and ceiling preserving colors. Cool focused daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-7",
+        "number": 7,
+        "title": "Floral / Botanical",
+        "prompt": "Transform this girl's bedroom in a botanical-floral style. Add a single bed with a sage-green upholstered headboard, white bedding with floral cushions, a wooden nightstand with a ceramic lamp, a small wooden desk with a chair, and several small potted plants. Hang botanical framed prints, install soft floral curtains on existing windows, and add a round soft green rug. Clean only, preserving colors. Bright fresh daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-8",
+        "number": 8,
+        "title": "Classic French Girl",
+        "prompt": "Restyle this girl's bedroom in soft classic French style. Add a single bed with a tufted soft-pink headboard, ivory bedding with lace and rose-pattern cushions, an ornate white nightstand with a small crystal lamp, a French-style desk with a chair, and a small vanity. Use cream silk curtains on existing windows, a vintage-style cream rug, a gilded mirror, and floral framed prints. Clean surfaces only. Soft warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-9",
+        "number": 9,
+        "title": "Coastal Girl",
+        "prompt": "Stage this girl's bedroom in light coastal style. Add a single bed with a whitewashed wood headboard, white bedding with soft blue striped cushions, a whitewashed nightstand with a rope-base lamp, a wicker chair, and a small whitewashed desk. Use breezy white cotton curtains on existing windows, a natural sisal rug, framed seashell prints, and a glass jar with shells. Clean only, preserving colors. Bright airy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "dormitorio-de-niña-(girl's-bedroom)-10",
+        "number": 10,
+        "title": "Mid-Century Girl",
+        "prompt": "Transform this girl's bedroom in Mid-Century Modern style. Add a single bed with a teak-framed soft-pink headboard, white bedding with mustard and pink cushions, a walnut nightstand with a brass globe lamp, a teak desk with a small chair, and a slatted teak shelf with books. Use soft pink curtains on existing windows, a geometric round rug, and a vintage-style framed print. Clean walls, floors and ceiling preserving colors. Warm sunny light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "cocina-kitchen",
+    "emoji": "🍳",
+    "title": "COCINA (Kitchen)",
+    "rule": "**NO se modifica la estructura de los muebles de cocina.** Solo se pueden actualizar electrodomésticos (horno, microondas, vitrocerámica, campana, frigorífico empotrado), grifería, accesorios de encimera, iluminación, taburetes y elementos decorativos.",
+    "prompts": [
+      {
+        "id": "cocina-(kitchen)-1",
+        "number": 1,
+        "title": "Modern Premium",
+        "prompt": "Refresh this kitchen with premium modern appliances and styling, keeping the existing cabinet structure unchanged. Replace ONLY the appliances: install a sleek matte-black induction cooktop, a built-in stainless-steel oven and microwave column, a modern flush extractor hood, and a brushed-steel single-lever faucet. Add three modern dark-leather counter stools at the island, a wooden cutting board with a small bowl of lemons, an espresso machine, a small olive tree, and modern pendant lights above the island. Add light linen curtains on existing windows. Clean countertops, floors, walls and ceiling preserving original colors. Bright crisp daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-2",
+        "number": 2,
+        "title": "Mediterranean Valencia",
+        "prompt": "Refresh this kitchen in Mediterranean Valencian style without altering the cabinet structure. Replace ONLY appliances: a modern induction cooktop, a built-in stainless oven and microwave, an updated extractor hood, and a brass single-lever faucet. Add three rattan counter stools, a terracotta bowl with lemons and oranges, ceramic jars with herbs, hanging copper pots, dried garlic braids, and a small olive plant. Use ivory linen curtains on existing windows. Clean only, preserving original colors. Warm Mediterranean light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-3",
+        "number": 3,
+        "title": "Scandinavian Light",
+        "prompt": "Restyle this kitchen in Scandinavian style preserving the original cabinet structure exactly. Replace ONLY appliances: a sleek black induction cooktop, a built-in white oven and microwave, a minimal extractor hood, and a matte-black faucet. Add three black wooden counter stools, a wooden cutting board with bread, a small ceramic jar with utensils, a small potted herb, and minimalist pendant lights. Use sheer white curtains on existing windows. Clean countertops, floors and ceiling without changing colors. Bright airy Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-4",
+        "number": 4,
+        "title": "Industrial Modern",
+        "prompt": "Refresh this kitchen in industrial modern style without changing the cabinet structure. Replace ONLY appliances: a black induction cooktop, a built-in stainless steel oven and microwave, a black metal extractor hood, and a matte-black gooseneck faucet. Add three black metal counter stools with leather seats, hanging Edison-bulb pendants, a wooden cutting board, a metal utensil holder, and an espresso machine. Use heavy grey linen curtains on existing windows. Clean surfaces only. Moody focused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-5",
+        "number": 5,
+        "title": "Japandi Kitchen",
+        "prompt": "Restyle this kitchen in Japandi style preserving the existing cabinetry. Replace ONLY appliances: a flush black induction cooktop, a built-in oven and microwave with minimalist controls, a clean flush hood, and a matte-black faucet. Add three light-oak counter stools, a single ceramic teapot with cups, a wooden tray with rice bowls, a small bonsai, and minimal paper-globe pendants. Use raw cotton curtains on existing windows. Clean only, preserving colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-6",
+        "number": 6,
+        "title": "Modern Rustic Farmhouse",
+        "prompt": "Refresh this kitchen in modern rustic farmhouse style without changing the cabinet structure. Replace ONLY appliances: a glass-ceramic cooktop, a built-in oven and microwave with bronze handles, a vintage-style range hood, and a bronze gooseneck faucet. Add three cross-back wooden counter stools, a wooden cutting board with fresh bread, a stoneware jar with utensils, dried herbs hanging, and a wrought-iron pendant lamp. Use ivory cotton curtains on existing windows. Clean walls, floors and ceiling preserving colors. Warm golden light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-7",
+        "number": 7,
+        "title": "Contemporary Luxury Black",
+        "prompt": "Restyle this kitchen in contemporary luxury black-and-brass style, preserving the cabinet structure. Replace ONLY appliances: a sleek matte-black induction cooktop, a built-in black-glass oven and microwave column, a luxury black extractor hood, and a brushed-brass faucet. Add three black velvet counter stools with brass legs, brass pendant lights, a marble cutting board, a single black vase with white flowers, and a high-end coffee machine. Use dark heavy curtains on existing windows. Clean surfaces only. Cinematic warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-8",
+        "number": 8,
+        "title": "Coastal Mediterranean",
+        "prompt": "Refresh this kitchen in coastal Mediterranean style without modifying the cabinet structure. Replace ONLY appliances: a modern induction cooktop, a built-in stainless oven and microwave, an updated hood, and a polished-chrome faucet. Add three whitewashed wooden counter stools, a glass jar with seashells, a wooden cutting board with lemons, woven baskets, and a small potted herb. Use white cotton curtains on existing windows. Clean only, keeping original colors. Bright airy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-9",
+        "number": 9,
+        "title": "Modern Minimalist White",
+        "prompt": "Restyle this kitchen in modern minimalist style preserving cabinetry exactly. Replace ONLY appliances: an integrated white-glass induction cooktop, a built-in white oven and microwave, a flush ceiling extractor, and a chrome single-lever faucet. Add three molded white counter stools, a single ceramic fruit bowl with green apples, minimalist pendant lights, and one small potted plant. Use sheer white curtains on existing windows. Clean countertops, floors and ceiling without changing colors. Bright neutral light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "cocina-(kitchen)-10",
+        "number": 10,
+        "title": "Mid-Century Warm Kitchen",
+        "prompt": "Refresh this kitchen in Mid-Century Modern style without altering cabinet structure. Replace ONLY appliances: a sleek glass-ceramic cooktop, a built-in oven and microwave, a clean modern hood, and a brushed-brass faucet. Add three teak-and-mustard counter stools, a teak cutting board, a brass spice rack, a ceramic vase with eucalyptus, and brass globe pendants. Use mustard linen curtains on existing windows. Clean only, preserving colors. Warm afternoon light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "baño-bathroom",
+    "emoji": "🛁",
+    "title": "BAÑO (Bathroom)",
+    "rule": "Solo limpieza estructural + sustitución de elementos decorativos, grifería, espejos, iluminación, textiles y vegetación. La estructura del baño no se modifica.",
+    "prompts": [
+      {
+        "id": "baño-(bathroom)-1",
+        "number": 1,
+        "title": "Modern Spa",
+        "prompt": "Refresh this bathroom into a modern spa-style space without altering the structure. Add a folded white spa towel set, a wooden bath caddy with bubble bath, a bamboo bath mat, a white orchid in a black ceramic pot, a brushed-nickel modern faucet replacing the existing one, a round backlit mirror, and minimalist pendant lights. Use sheer white curtains on existing windows. Clean tiles, floor and ceiling preserving original colors. Soft warm spa light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-2",
+        "number": 2,
+        "title": "Mediterranean Valencia",
+        "prompt": "Restyle this bathroom in Mediterranean Valencian style without changing the structure. Add ivory cotton towels rolled in a basket, a small terracotta vase with olive branches, a wooden stool with a folded towel and soap, a brushed-brass faucet replacing the existing one, a rattan-framed round mirror, and warm pendant lighting. Use light linen curtains on existing windows. Clean tiles, floors and ceiling preserving colors. Warm Mediterranean light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-3",
+        "number": 3,
+        "title": "Japandi Bathroom",
+        "prompt": "Transform this bathroom in Japandi style preserving the structure. Add neatly folded beige linen towels, a small black ceramic tray with a stone vase and dry branches, a low oak stool, a matte-black faucet replacing the existing one, a black round mirror, and a minimal black pendant. Use raw cotton curtains on existing windows. Clean walls, floors and ceiling preserving original colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-4",
+        "number": 4,
+        "title": "Contemporary Luxury Black",
+        "prompt": "Refresh this bathroom in contemporary luxury black-and-marble accents without altering the structure. Add fluffy white towels, a black marble tray with luxury soaps, an orchid in a black pot, a brushed-brass faucet replacing the existing one, a large gold-framed mirror, and elegant brass sconces. Use heavy champagne curtains on existing windows. Clean surfaces only. Cinematic moody light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-5",
+        "number": 5,
+        "title": "Scandinavian Bright",
+        "prompt": "Restyle this bathroom in Scandinavian style without changing structure. Add crisp white towels neatly folded, a small white-oak stool with a candle, a white ceramic vase with eucalyptus, a matte-black faucet replacing the existing one, a circular black-framed mirror, and a minimal pendant. Use sheer white curtains on existing windows. Clean only, preserving colors. Bright Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-6",
+        "number": 6,
+        "title": "Coastal Mediterranean",
+        "prompt": "Transform this bathroom in coastal style preserving structure. Add navy-and-white striped towels, a wooden tray with shells and soaps, a glass jar with bath salts, a polished-chrome faucet replacing the existing one, a rope-framed round mirror, and a soft natural rug. Use breezy white curtains on existing windows. Clean walls, floors and ceiling preserving colors. Bright airy light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-7",
+        "number": 7,
+        "title": "Boho Earthy",
+        "prompt": "Refresh this bathroom in earthy boho style without altering the structure. Add cream and terracotta towels, a wooden stool with a candle and soap, a small potted hanging plant, a brushed-bronze faucet replacing the existing one, a rattan-framed mirror, and a vintage-style small rug. Use cream gauze curtains on existing windows. Clean only, preserving original colors. Warm soft light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-8",
+        "number": 8,
+        "title": "Modern Minimalist",
+        "prompt": "Restyle this bathroom in modern minimalist style preserving the structure. Add neatly folded white towels, a single white ceramic vase with one branch, a slim chrome faucet replacing the existing one, a frameless rectangular mirror, and clean recessed lighting. Use sheer white curtains on existing windows. Clean tiles, floors and ceiling preserving colors. Bright neutral light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-9",
+        "number": 9,
+        "title": "Industrial Soft",
+        "prompt": "Transform this bathroom in soft industrial style without modifying structure. Add charcoal towels, a black metal tray with soap and a candle, a small Edison-bulb sconce, a matte-black industrial faucet replacing the existing one, a black metal-framed round mirror, and a worn small rug. Use grey linen curtains on existing windows. Clean walls, floors and ceiling preserving colors. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "baño-(bathroom)-10",
+        "number": 10,
+        "title": "Modern Rustic",
+        "prompt": "Refresh this bathroom in modern rustic style without altering structure. Add ivory cotton towels, a wooden tray with handmade soap and a candle, a stoneware jar with eucalyptus, a bronze gooseneck faucet replacing the existing one, a wood-framed mirror, and a wrought-iron sconce. Use ivory cotton curtains on existing windows. Clean only, keeping original colors. Warm golden light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "terraza-o-balcón-terrace-/-balcony",
+    "emoji": "🌿",
+    "title": "TERRAZA O BALCÓN (Terrace / Balcony)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-1",
+        "number": 1,
+        "title": "Mediterranean Lounge",
+        "prompt": "Stage this terrace in Mediterranean lounge style. Add a low rattan sofa with cream cushions and terracotta accents, a travertine coffee table, two rattan chairs, large potted olive trees, lavender pots, and overhead string lights. Add light outdoor curtains/sheer panels on any existing structure. Clean tiles, walls and ceiling preserving original colors. Warm late-afternoon Mediterranean light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-2",
+        "number": 2,
+        "title": "Modern Boho Outdoor",
+        "prompt": "Restyle this balcony in modern boho style. Add a low rattan loveseat with mustard and cream cushions, a small carved wooden coffee table, a hanging chair, several large potted plants (palm, monstera), a Berber-style outdoor rug, and warm string lights. Add cream gauze outdoor curtains on existing structure. Clean only, preserving colors. Warm sunny afternoon. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-3",
+        "number": 3,
+        "title": "Contemporary Luxury Terrace",
+        "prompt": "Transform this terrace in contemporary luxury style. Add a sleek modular outdoor sofa in charcoal with white cushions, a black low coffee table, two designer lounge chairs, large architectural planters with sculptural greenery, a fire bowl, and integrated LED lighting. Add elegant outdoor curtains in champagne. Clean tiles, walls and ceiling preserving colors. Cinematic warm sunset light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-4",
+        "number": 4,
+        "title": "Scandinavian Outdoor",
+        "prompt": "Stage this balcony in Scandinavian style. Add a small light-grey outdoor sofa with white cushions and a knit throw, a white-oak round side table, two minimalist chairs, white potted plants, and a soft outdoor rug. Add sheer white outdoor curtains on existing structure. Clean only, preserving original colors. Bright airy daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-5",
+        "number": 5,
+        "title": "Japandi Zen Terrace",
+        "prompt": "Restyle this terrace in Japandi style. Add a low oak bench with charcoal cushions, a small black ceramic tea table with a teapot and cups, a stone lantern, large bamboo and bonsai plants, and a tatami-style natural rug. Add raw cotton outdoor curtains on existing structure. Clean walls, floor and ceiling preserving colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-6",
+        "number": 6,
+        "title": "Industrial Rooftop",
+        "prompt": "Transform this terrace in industrial rooftop style. Add a black metal-frame outdoor sofa with charcoal cushions, a metal-and-wood coffee table, two black metal chairs, Edison-bulb string lights, large concrete planters with grasses and olive trees, and a worn outdoor rug. Use heavy grey outdoor curtains on existing structure. Clean only, preserving colors. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-7",
+        "number": 7,
+        "title": "Coastal Mediterranean",
+        "prompt": "Stage this terrace in coastal Mediterranean style. Add a whitewashed wooden lounge sofa with navy-and-white striped cushions, a whitewashed coffee table, two wicker chairs, large white planters with bougainvillea and lavender, and a natural sisal outdoor rug. Add airy white outdoor curtains. Clean tiles, walls and ceiling preserving original colors. Bright airy seaside light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-8",
+        "number": 8,
+        "title": "Modern Dining Terrace",
+        "prompt": "Restyle this terrace as a modern outdoor dining area. Add a sleek dining table in stone or concrete with six modern chairs, a large potted lemon tree, two olive trees in stone planters, modern outdoor pendants above the table, and string lights along the perimeter. Add light linen outdoor curtains on existing structure. Clean only, keeping original colors. Warm dinner-time light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-9",
+        "number": 9,
+        "title": "Tropical Resort",
+        "prompt": "Transform this terrace in tropical resort style. Add a teak lounge daybed with white cushions, a teak coffee table, two teak loungers, large palm and banana plants, hanging lanterns, and a natural jute outdoor rug. Add white linen outdoor curtains on existing structure. Clean walls, floors and ceiling preserving colors. Bright tropical golden light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "terraza-o-balcón-(terrace-/-balcony)-10",
+        "number": 10,
+        "title": "Mid-Century Outdoor",
+        "prompt": "Stage this balcony in Mid-Century Modern outdoor style. Add a teak-framed outdoor sofa with mustard cushions, a kidney-shaped teak coffee table, two retro lounge chairs, brass globe lanterns, large planters with monstera, and a geometric outdoor rug. Add mustard outdoor curtains on existing structure. Clean tiles, walls and ceiling preserving colors. Warm sunny afternoon light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "piscina-swimming-pool",
+    "emoji": "🏊",
+    "title": "PISCINA (Swimming Pool)",
+    "rule": "**La forma de la piscina NO se modifica.** Solo se restyliza el entorno: muebles, vegetación, iluminación, paseos y deck.",
+    "prompts": [
+      {
+        "id": "piscina-(swimming-pool)-1",
+        "number": 1,
+        "title": "Mediterranean Luxury",
+        "prompt": "Restyle the area around the existing pool in Mediterranean luxury style WITHOUT changing the pool's shape, size or position. Add four white teak sun loungers with cream cushions and rolled towels, a low travertine side table with two glasses of lemonade, large terracotta pots with olive trees and lavender, sheer white outdoor curtains on any existing pergola, and warm string lights overhead. Clean the deck, surrounding walls and pool tile preserving original colors. Warm Mediterranean late-afternoon light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-2",
+        "number": 2,
+        "title": "Modern Resort",
+        "prompt": "Transform the existing pool's surrounding area in modern resort style — the pool's shape and structure remain unchanged. Add four sleek white loungers with grey cushions, a modern outdoor daybed with canopy, large architectural planters with palms, integrated underwater LED lighting, and minimalist white outdoor curtains. Clean deck and surrounding surfaces preserving colors. Bright crisp resort daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-3",
+        "number": 3,
+        "title": "Tropical Paradise",
+        "prompt": "Stage the area around the existing pool in tropical paradise style without altering the pool itself. Add four teak loungers with white cushions, a thatched cabana with cushions, large palm and banana plants, hanging lanterns, a wooden side table with tropical fruits, and warm string lights. Clean only, preserving original deck and pool tile colors. Bright golden tropical light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-4",
+        "number": 4,
+        "title": "Contemporary Luxury Black-and-Stone",
+        "prompt": "Restyle the surroundings of the existing pool in contemporary luxury style without changing the pool's shape. Add four black-frame loungers with charcoal cushions, a luxury outdoor daybed, large stone planters with sculptural greenery, an outdoor fire bowl nearby, integrated LED uplighting, and elegant champagne outdoor curtains. Clean deck and surrounding walls preserving colors. Cinematic warm sunset light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-5",
+        "number": 5,
+        "title": "Boho Outdoor Oasis",
+        "prompt": "Transform the area around the existing pool in boho outdoor style without modifying the pool. Add four wicker loungers with mustard and terracotta cushions, a Berber-style outdoor rug, large potted plants (palms, monstera), a hanging chair, hanging lanterns, and warm string lights. Clean only, preserving original colors of deck and pool tile. Warm golden hour. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-6",
+        "number": 6,
+        "title": "Scandinavian Pool Area",
+        "prompt": "Stage the surroundings of the existing pool in clean Scandinavian style without altering the pool. Add four light-wood loungers with white cushions, a small white-oak side table, large white planters with simple greenery, sheer white outdoor curtains, and minimalist outdoor lighting. Clean deck and walls preserving colors. Bright airy diffused daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-7",
+        "number": 7,
+        "title": "Japandi Pool Retreat",
+        "prompt": "Restyle the area around the existing pool in Japandi style — the pool's shape, structure and tile remain unchanged. Add four low oak loungers with charcoal cushions, a small stone tea table, large bamboo and pine plants in black ceramic pots, a stone lantern, and raw cotton outdoor curtains on existing pergola. Clean only, preserving colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-8",
+        "number": 8,
+        "title": "Industrial Modern Outdoor",
+        "prompt": "Transform the area around the existing pool in industrial modern style without altering the pool. Add four black metal-frame loungers with charcoal cushions, a low metal-and-wood side table, large concrete planters with grasses and olive trees, Edison-bulb string lights, and grey heavy outdoor curtains. Clean deck and walls preserving original colors. Moody warm dusk light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-9",
+        "number": 9,
+        "title": "Coastal Whitewashed",
+        "prompt": "Stage the surroundings of the existing pool in coastal whitewashed style. Pool shape unchanged. Add four whitewashed wooden loungers with navy-and-white striped cushions, a whitewashed side table, large white planters with bougainvillea and palms, white outdoor curtains, and a natural sisal outdoor rug. Clean only, preserving colors. Bright airy seaside daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "piscina-(swimming-pool)-10",
+        "number": 10,
+        "title": "Mid-Century Pool Lounge",
+        "prompt": "Restyle the area around the existing pool in Mid-Century Modern style without changing the pool. Add four teak-framed loungers with mustard cushions, a kidney-shaped teak side table, large planters with monstera, brass globe lanterns, a geometric outdoor rug, and a small bar cart with cocktails. Clean deck and surrounding walls preserving original colors. Warm retro afternoon light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "despacho-u-oficina-home-office",
+    "emoji": "💼",
+    "title": "DESPACHO U OFICINA (Home Office)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "despacho-u-oficina-(home-office)-1",
+        "number": 1,
+        "title": "Executive Modern",
+        "prompt": "Stage this home office as an executive modern workspace. Add a large dark walnut desk, a black ergonomic leather chair, a 27-inch monitor, a brass desk lamp, a leather desk pad with notebooks, and floating walnut shelves with books and decor. Hang one large abstract framed artwork, install heavy charcoal curtains on existing windows, and add a deep-pile dark rug. Clean walls, floor and ceiling preserving colors. Warm focused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-2",
+        "number": 2,
+        "title": "Scandinavian Minimal Office",
+        "prompt": "Restyle this home office in Scandinavian style. Add a light-oak desk, a soft grey ergonomic chair, a slim monitor, a matte-black desk lamp, a small ceramic vase with eucalyptus, and a wall-mounted oak shelf with books. Use sheer white curtains on existing windows, a flat soft beige rug, and one minimal line-art framed print. Clean surfaces only. Bright airy Nordic light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-3",
+        "number": 3,
+        "title": "Mediterranean Creative Studio",
+        "prompt": "Transform this home office in Mediterranean creative style. Add a wooden desk in light oak, a rattan chair with a cushion, a brass desk lamp, a stack of design books, ceramic jars with pencils, and an olive plant. Hang a botanical framed print, install ivory linen curtains on existing windows, and add a natural jute rug. Clean only, preserving colors. Warm Mediterranean light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-4",
+        "number": 4,
+        "title": "Japandi Office",
+        "prompt": "Stage this home office in Japandi style. Add a low oak desk with clean lines, a black wooden chair with a small cushion, a paper-globe desk lamp, a single bonsai, a wooden tray with a notebook, and a slim oak shelf with books. Use raw cotton curtains on existing windows, a tatami-style natural rug, and one sumi-ink framed art piece. Clean walls, floor and ceiling preserving colors. Calm diffused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-5",
+        "number": 5,
+        "title": "Industrial Loft Office",
+        "prompt": "Restyle this home office in industrial loft style. Add a metal-and-reclaimed-wood desk, a black leather-and-metal chair, an Edison-bulb desk lamp, a vintage globe, leather-bound books on metal-pipe shelving, and a vintage typewriter. Use heavy grey linen curtains on existing windows, a worn Persian-style rug, and one black-and-white framed photograph. Clean surfaces only. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-6",
+        "number": 6,
+        "title": "Modern Minimalist White",
+        "prompt": "Transform this home office in modern minimalist style. Add a clean white desk, a white ergonomic chair, a slim silver monitor, a single white desk lamp, and a white wall-mounted shelf with books. Use sheer white curtains on existing windows, a flat light-grey rug, and one minimal black-framed print. Clean walls, floor and ceiling preserving colors. Bright neutral light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-7",
+        "number": 7,
+        "title": "Boho Creative Office",
+        "prompt": "Stage this home office in boho creative style. Add a wooden desk, a rattan chair with a sheepskin throw, a small terracotta lamp, several potted plants (monstera, hanging plant), macramé wall art, a stack of art books, and a Berber-style rug. Use cream gauze curtains on existing windows. Clean only, preserving colors. Warm afternoon light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-8",
+        "number": 8,
+        "title": "Contemporary Luxury Office",
+        "prompt": "Restyle this home office in contemporary luxury style. Add a dark walnut desk with brass details, a quilted leather executive chair, a sleek monitor, a brass-and-marble desk lamp, leather-bound books on walnut shelving, and a small brass sculpture. Hang a large abstract gold-leaf artwork, use heavy champagne curtains on existing windows, and add a deep-pile cream rug. Clean surfaces only. Cinematic warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-9",
+        "number": 9,
+        "title": "Mid-Century Modern Office",
+        "prompt": "Transform this home office in Mid-Century Modern style. Add a teak desk with hairpin legs, a leather-and-walnut Eames-style chair, a brass desk lamp, a vintage globe, a slatted teak shelf with books, and a small ceramic vase. Hang a geometric framed print, use mustard curtains on existing windows, and add a graphic patterned rug. Clean only, preserving colors. Warm sunny light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "despacho-u-oficina-(home-office)-10",
+        "number": 10,
+        "title": "Modern Rustic Office",
+        "prompt": "Stage this home office in modern rustic style. Add a reclaimed-wood desk with iron base, a leather-and-wood chair, a wrought-iron desk lamp, a stoneware jar with eucalyptus, a stack of leather notebooks, and a wooden shelf with books and a vintage clock. Use ivory cotton curtains on existing windows, a soft wool rug, and a framed botanical print. Clean walls, floor and ceiling preserving colors. Warm golden light. [SUFIJO MAESTRO]"
+      }
+    ]
+  },
+  {
+    "id": "garaje-garage",
+    "emoji": "🚗",
+    "title": "GARAJE (Garage)",
+    "rule": "Foco en presentar el garaje como espacio funcional, ordenado y atractivo (clave para venta). No se modifica estructura.",
+    "prompts": [
+      {
+        "id": "garaje-(garage)-1",
+        "number": 1,
+        "title": "Modern Premium Garage",
+        "prompt": "Stage this garage as a premium modern space. Add a sleek modern car (a dark grey SUV) parked centered, modular black metal storage cabinets along one wall, a clean epoxy-style floor look (without changing the floor color, just clean and polished), a wall-mounted bicycle, a workbench with neatly organized tools, and overhead LED strip lighting. Clean walls, floor and ceiling thoroughly preserving original colors. Bright crisp daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-2",
+        "number": 2,
+        "title": "Classic Workshop",
+        "prompt": "Restyle this garage as a classic organized workshop. Add a vintage-style car (cream classic sedan), a wooden workbench with tools neatly arranged, a pegboard wall with hanging tools, a metal toolbox stack, a wall-mounted bicycle, and warm overhead lighting. Clean floor, walls and ceiling preserving original colors. Warm focused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-3",
+        "number": 3,
+        "title": "Minimalist Clean Garage",
+        "prompt": "Transform this garage into a minimalist clean space. Add a single modern car (a white sedan) parked centered, white modular storage cabinets along one wall, a single workbench, a wall-mounted bicycle, and clean recessed LED lighting. Clean floor, walls and ceiling without changing colors. Bright neutral daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-4",
+        "number": 4,
+        "title": "Multi-Use Garage / Hobby Space",
+        "prompt": "Stage this garage as a multi-use space. Add a modern car parked on one side, a small workbench area with neat tools, a corner with a wall-mounted bicycle and skateboard, a sturdy steel shelving unit with labeled boxes, and a small lounge corner with two folding chairs. Clean walls, floor and ceiling preserving original colors. Bright daylight. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-5",
+        "number": 5,
+        "title": "Luxury Showroom Garage",
+        "prompt": "Restyle this garage in luxury showroom style. Add a high-end modern car (a black luxury sedan or sport coupe) centered, sleek black wall cabinets, accent LED strip lighting along the floor and ceiling, a clean polished floor, a small lounge area with a leather chair, and a wall-mounted vintage poster. Clean surfaces only. Cinematic moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-6",
+        "number": 6,
+        "title": "Family Functional Garage",
+        "prompt": "Transform this garage into a family-friendly functional space. Add a family SUV parked centered, organized storage cabinets, labeled bins on shelves, two bicycles wall-mounted, a small workbench, sports equipment neatly arranged, and bright overhead lighting. Clean floor, walls and ceiling preserving colors. Bright welcoming light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-7",
+        "number": 7,
+        "title": "Modern Workshop",
+        "prompt": "Stage this garage as a modern workshop. Add a modern car parked on one side, a clean wooden workbench with a vise, an organized pegboard with tools, a metal tool chest, a wall-mounted bicycle, and bright LED workshop lighting. Clean walls, floor and ceiling preserving colors. Bright focused light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-8",
+        "number": 8,
+        "title": "Industrial Style Garage",
+        "prompt": "Restyle this garage in industrial style. Add a modern car parked centered, black metal storage units, exposed Edison-bulb pendants, a black metal workbench, wall-mounted tools, and a vintage metal sign. Clean floor, walls and ceiling preserving original colors. Moody warm light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-9",
+        "number": 9,
+        "title": "Bicycle / Lifestyle Garage",
+        "prompt": "Transform this garage into a lifestyle / cycling-focused space. Add a single modern car, four wall-mounted bicycles in a row, a clean workbench with cycling tools and a stand, organized shelves with helmets and gear, and bright overhead lighting. Clean walls, floor and ceiling without changing colors. Bright sporty light. [SUFIJO MAESTRO]"
+      },
+      {
+        "id": "garaje-(garage)-10",
+        "number": 10,
+        "title": "Empty Show-Ready Garage",
+        "prompt": "Stage this garage as a clean and spacious show-ready space — minimal, no car, no clutter. Add only a clean polished floor look (preserving original color), a single neat row of wall-mounted shelves on one wall with a couple of labeled boxes, a single bicycle wall-mounted, and bright LED ceiling lighting. Clean walls, floor and ceiling thoroughly preserving original colors. Bright neutral light to highlight space and dimensions. [SUFIJO MAESTRO]"
+      }
+    ]
+  }
+]

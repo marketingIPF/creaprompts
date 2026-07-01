@@ -39,6 +39,7 @@ body {
   background: var(--bg);
   color: var(--text);
   -webkit-font-smoothing: antialiased;
+  transition: background-color .2s ease, color .2s ease;
 }
 
 button, input {
@@ -47,6 +48,24 @@ button, input {
 
 ::selection {
   background: var(--orange-soft);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--orange);
 }
 
 /* ---------- Layout ---------- */
@@ -63,30 +82,37 @@ button, input {
   z-index: 20;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 14px 20px;
+  gap: 18px;
+  padding: 16px 24px;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
+  box-shadow: 0 1px 0 0 var(--orange-soft);
 }
 
 .brand {
   display: flex;
-  align-items: baseline;
-  gap: 6px;
+  align-items: center;
+  gap: 12px;
   white-space: nowrap;
-  font-weight: 800;
-  letter-spacing: 0.2px;
 }
 
-.brand .rk {
-  color: var(--orange);
+.brand-logo {
+  height: 22px;
+  width: auto;
+  display: block;
+}
+
+.brand-divider {
+  width: 1px;
+  height: 18px;
+  background: var(--border);
 }
 
 .brand small {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-faint);
   font-size: 11px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -105,11 +131,12 @@ button, input {
   color: var(--text);
   font-size: 13.5px;
   outline: none;
-  transition: border-color .15s ease;
+  transition: border-color .15s ease, box-shadow .15s ease;
 }
 
 .search input:focus {
   border-color: var(--orange);
+  box-shadow: 0 0 0 3px var(--orange-soft);
 }
 
 .search svg {
@@ -133,10 +160,13 @@ button, input {
   justify-content: center;
   cursor: pointer;
   flex-shrink: 0;
+  transition: border-color .15s ease, transform .15s ease, color .15s ease;
 }
 
 .theme-toggle:hover {
   border-color: var(--orange);
+  color: var(--orange);
+  transform: rotate(-8deg);
 }
 
 /* ---------- Library tabs ---------- */
@@ -150,6 +180,7 @@ button, input {
 }
 
 .libtab {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -162,6 +193,11 @@ button, input {
   font-size: 13.5px;
   font-weight: 600;
   white-space: nowrap;
+  transition: color .15s ease, background .15s ease;
+}
+
+.libtab:hover {
+  color: var(--text);
 }
 
 .libtab .count {
@@ -171,6 +207,7 @@ button, input {
   background: var(--surface-2);
   padding: 1px 7px;
   border-radius: 999px;
+  transition: color .15s ease;
 }
 
 .libtab.active {
@@ -181,15 +218,31 @@ button, input {
   margin-bottom: -1px;
 }
 
+.libtab.active::after {
+  content: '';
+  position: absolute;
+  left: 14px;
+  right: 14px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--orange);
+  border-radius: 2px;
+}
+
 .libtab.active .count {
   color: var(--orange);
 }
 
 .libtab-desc {
-  padding: 12px 20px 0;
+  padding: 13px 24px 0;
   color: var(--text-faint);
   font-size: 12.5px;
-  max-width: 720px;
+  line-height: 1.5;
+  max-width: 760px;
+}
+
+.libtab-desc strong {
+  color: var(--text-dim);
 }
 
 /* ---------- Main content ---------- */
@@ -208,26 +261,41 @@ button, input {
   margin-bottom: 12px;
   background: var(--surface);
   overflow: hidden;
+  transition: border-color .15s ease;
+}
+
+.room:hover {
+  border-color: #3a3c41;
+}
+
+[data-theme='light'] .room:hover {
+  border-color: #d2cfc8;
 }
 
 .room-header {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 14px 16px;
+  padding: 15px 16px;
   cursor: pointer;
   user-select: none;
 }
 
+.room-header:hover .room-title {
+  color: var(--orange);
+}
+
 .room-emoji {
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1;
+  filter: grayscale(0.15);
 }
 
 .room-title {
   font-weight: 700;
   font-size: 14.5px;
   flex: 1;
+  transition: color .15s ease;
 }
 
 .room-rule {
@@ -239,19 +307,23 @@ button, input {
 }
 
 .room-count {
-  font-size: 11.5px;
+  font-size: 11px;
   color: var(--text-faint);
-  font-weight: 600;
+  font-weight: 700;
+  background: var(--surface-2);
+  padding: 2px 8px;
+  border-radius: 999px;
 }
 
 .chevron {
-  transition: transform .18s ease;
-  opacity: 0.6;
+  transition: transform .2s ease;
+  opacity: 0.5;
   flex-shrink: 0;
 }
 
 .chevron.open {
   transform: rotate(180deg);
+  opacity: 0.9;
 }
 
 .room-body {
@@ -259,6 +331,18 @@ button, input {
   padding: 14px;
   display: grid;
   gap: 10px;
+  animation: reveal .18s ease;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* ---------- Prompt card ---------- */
@@ -268,6 +352,16 @@ button, input {
   border-radius: 10px;
   background: var(--surface-2);
   overflow: hidden;
+  transition: box-shadow .15s ease, border-color .15s ease;
+}
+
+.card:hover {
+  border-color: var(--orange);
+  box-shadow: 0 2px 12px -4px rgba(0, 0, 0, 0.35);
+}
+
+[data-theme='light'] .card:hover {
+  box-shadow: 0 2px 12px -6px rgba(0, 0, 0, 0.12);
 }
 
 .card-head {
@@ -344,12 +438,21 @@ button, input {
 }
 
 .variant-title {
-  padding: 9px 12px;
-  font-size: 12.5px;
+  padding: 10px 12px;
+  font-size: 12px;
   font-weight: 700;
+  letter-spacing: 0.02em;
   color: var(--orange);
   background: var(--orange-soft);
   border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.variant-title::before {
+  content: '✦';
+  font-size: 10px;
 }
 
 .variant-steps {
@@ -360,6 +463,11 @@ button, input {
   border: none;
   border-radius: 0;
   border-bottom: 1px solid var(--border);
+  box-shadow: none !important;
+}
+
+.variant-steps .card:hover {
+  background: var(--surface);
 }
 
 .variant-steps .card:last-child {
@@ -369,11 +477,24 @@ button, input {
 /* ---------- Footer ---------- */
 
 .footer {
-  padding: 18px 20px 28px;
+  padding: 22px 20px 32px;
   text-align: center;
   color: var(--text-faint);
   font-size: 11.5px;
+  line-height: 1.7;
   border-top: 1px solid var(--border);
+  position: relative;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: var(--orange);
 }
 
 .footer strong {

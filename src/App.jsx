@@ -90,8 +90,12 @@ export default function App() {
     <div className="app">
       <div className="topbar">
         <div className="brand">
-          <span className="rk">RK</span>
-          <span>PALANCA</span>
+          <img
+            className="brand-logo"
+            src={theme === 'dark' ? '/logos/rk-palanca-light-text.svg' : '/logos/rk-palanca-dark-text.svg'}
+            alt="RK Palanca Fontestad"
+          />
+          <span className="brand-divider" />
           <small>Prompts</small>
         </div>
 

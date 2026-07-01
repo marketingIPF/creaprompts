@@ -4,6 +4,23 @@ Biblioteca interna de prompts de IA para RK Palanca Fontestad: Home Staging Digi
 
 Sustituye a https://marketingipf.github.io/creaprompts/
 
+## Imágenes Hero (Estilos de Salón)
+
+La cabecera muestra una galería de los 10 estilos de Salón. Mientras no subas las fotos reales, se ve un placeholder — en cuanto añadas los archivos en `public/hero/` con estos nombres exactos, aparecen automáticamente sin tocar código:
+
+- `salon-mediterranean-valencia.jpg`
+- `salon-scandinavian-minimalist.jpg`
+- `salon-contemporary-luxury.jpg`
+- `salon-japandi.jpg`
+- `salon-industrial-loft.jpg`
+- `salon-modern-minimalist.jpg`
+- `salon-bohemian-chic.jpg`
+- `salon-coastal-mediterranea.jpg`
+- `salon-midcentury-modern.jpg`
+- `salon-modern-rustic-farmhouse.jpg`
+
+Tamaño recomendado: 1600×1200px (4:3), JPG optimizado (~300-500KB). Al pulsar una imagen, se abre directamente ese prompt en Home Staging.
+
 ## Funcionalidades
 
 - **Acordeón de dos niveles** — cada estancia se despliega en una lista de títulos; cada prompt se expande individualmente al pulsarlo. El botón "Copiar" funciona sin necesidad de expandir la tarjeta.

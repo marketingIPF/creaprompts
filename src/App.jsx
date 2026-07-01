@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import Room from './components/Room';
 import PromptCard from './components/PromptCard';
+import Hero from './components/Hero';
 import { useFavorites } from './context/FavoritesContext';
 import { flattenLibraries } from './utils/flatten';
 import nanoBananaData from './data/nanoBanana.json';
@@ -106,6 +107,17 @@ export default function App() {
   const q = normalize(query.trim());
   const searching = q.length > 0;
 
+  const handleSelectStyle = (styleTitle) => {
+    const match = flat.find(
+      (item) => item.libId === 'nano-banana' && item.roomTitle.startsWith('SALÓN') && item.itemTitle === styleTitle
+    );
+    if (match) {
+      setQuery('');
+      setActiveLib('nano-banana');
+      setHighlightKey(match.key);
+    }
+  };
+
   const globalResults = useMemo(() => {
     if (!searching) return [];
     return flat.filter(
@@ -203,6 +215,8 @@ export default function App() {
           )}
         </button>
       </div>
+
+      <Hero onSelectStyle={handleSelectStyle} />
 
       <div className={`libtabs${searching ? ' disabled' : ''}`}>
         {LIBRARIES.map((lib) => (

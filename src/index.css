@@ -369,7 +369,27 @@ button, input {
   align-items: center;
   gap: 10px;
   padding: 10px 12px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.card:has(.card-prompt) .card-head {
   border-bottom: 1px solid var(--border);
+}
+
+.card-head:hover .card-title {
+  color: var(--orange);
+}
+
+.card-chevron {
+  opacity: 0.45;
+  flex-shrink: 0;
+  transition: transform .18s ease, opacity .18s ease;
+}
+
+.card-chevron.open {
+  transform: rotate(180deg);
+  opacity: 0.85;
 }
 
 .card-number {
@@ -390,6 +410,7 @@ button, input {
   font-weight: 600;
   font-size: 13px;
   flex: 1;
+  transition: color .15s ease;
 }
 
 .copy-btn {
@@ -427,6 +448,7 @@ button, input {
   color: var(--text-dim);
   white-space: pre-wrap;
   font-family: 'SF Mono', 'Consolas', monospace;
+  animation: reveal .15s ease;
 }
 
 /* ---------- Variant (Omni Flash) ---------- */

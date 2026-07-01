@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import PromptCard from './PromptCard';
 
 function countItems(room) {
@@ -7,9 +7,17 @@ function countItems(room) {
   return 0;
 }
 
-export default function Room({ room, defaultOpen = false }) {
-  const [open, setOpen] = useState(defaultOpen);
+export default function Room({ room, libId, highlightKey }) {
+  const roomPrefix = `${libId}::${room.id}::`;
+  const containsHighlight = Boolean(highlightKey && highlightKey.startsWith(roomPrefix));
+  const [open, setOpen] = useState(containsHighlight);
   const count = countItems(room);
+
+  // El enlace directo puede resolverse en un efecto posterior al primer render
+  // (la URL se parsea después de montar), así que reaccionamos también aquí.
+  useEffect(() => {
+    if (containsHighlight) setOpen(true);
+  }, [containsHighlight]);
 
   return (
     <div className="room">
@@ -28,18 +36,39 @@ export default function Room({ room, defaultOpen = false }) {
       {open && (
         <div className="room-body">
           {room.prompts &&
-            room.prompts.map((p) => (
-              <PromptCard key={p.id} number={p.number} title={p.title} prompt={p.prompt} />
-            ))}
+            room.prompts.map((p) => {
+              const key = `${roomPrefix}${p.id}`;
+              return (
+                <PromptCard
+                  key={key}
+                  id={key}
+                  number={p.number}
+                  title={p.title}
+                  prompt={p.prompt}
+                  defaultOpen={key === highlightKey}
+                  highlight={key === highlightKey}
+                />
+              );
+            })}
 
           {room.variants &&
-            room.variants.map((v, i) => (
-              <div className="variant" key={i}>
+            room.variants.map((v, vi) => (
+              <div className="variant" key={vi}>
                 <div className="variant-title">{v.title}</div>
                 <div className="variant-steps">
-                  {v.steps.map((s, j) => (
-                    <PromptCard key={j} title={s.label} prompt={s.prompt} />
-                  ))}
+                  {v.steps.map((s, si) => {
+                    const key = `${roomPrefix}v${vi}s${si}`;
+                    return (
+                      <PromptCard
+                        key={key}
+                        id={key}
+                        title={s.label}
+                        prompt={s.prompt}
+                        defaultOpen={key === highlightKey}
+                        highlight={key === highlightKey}
+                      />
+                    );
+                  })}
                 </div>
               </div>
             ))}

@@ -1,5 +1,8 @@
-import { useMemo, useState, useEffect } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Room from './components/Room';
+import PromptCard from './components/PromptCard';
+import { useFavorites } from './context/FavoritesContext';
+import { flattenLibraries } from './utils/flatten';
 import nanoBananaData from './data/nanoBanana.json';
 import omniFlashData from './data/omniFlash.json';
 import klingData from './data/kling.json';
@@ -34,6 +37,8 @@ const LIBRARIES = [
   },
 ];
 
+const FAVORITES_TAB = { id: 'favoritos', label: 'Favoritos', emoji: '⭐' };
+
 function normalize(str) {
   return (str || '')
     .toLowerCase()
@@ -50,9 +55,7 @@ function filterRoom(room, query) {
   if (matches(room.title, query)) return room;
 
   if (room.prompts) {
-    const prompts = room.prompts.filter(
-      (p) => matches(p.title, query) || matches(p.prompt, query)
-    );
+    const prompts = room.prompts.filter((p) => matches(p.title, query) || matches(p.prompt, query));
     return prompts.length ? { ...room, prompts } : null;
   }
 
@@ -70,21 +73,83 @@ function filterRoom(room, query) {
   return null;
 }
 
+function originTag(item) {
+  return `${item.libEmoji} ${item.libLabel} · ${item.roomEmoji} ${item.roomTitle}`;
+}
+
 export default function App() {
   const [activeLib, setActiveLib] = useState(LIBRARIES[0].id);
   const [query, setQuery] = useState('');
   const [theme, setTheme] = useState('light');
+  const [highlightKey, setHighlightKey] = useState(null);
+  const { favorites } = useFavorites();
+
+  const flat = useMemo(() => flattenLibraries(LIBRARIES), []);
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
   }, [theme]);
 
-  const library = LIBRARIES.find((l) => l.id === activeLib);
+  // Enlace directo: ?p=<clave> abre la librería, estancia y prompt correctos
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const p = params.get('p');
+    if (!p) return;
+    const match = flat.find((item) => item.key === p);
+    if (match) {
+      setActiveLib(match.libId);
+      setHighlightKey(p);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   const q = normalize(query.trim());
+  const searching = q.length > 0;
+
+  const globalResults = useMemo(() => {
+    if (!searching) return [];
+    return flat.filter(
+      (item) =>
+        matches(item.roomTitle, q) ||
+        matches(item.itemTitle, q) ||
+        matches(item.prompt, q) ||
+        matches(item.libLabel, q)
+    );
+  }, [flat, q, searching]);
+
+  const favoriteItems = useMemo(
+    () => flat.filter((item) => favorites.has(item.key)),
+    [flat, favorites]
+  );
+
+  const activeLibrary = LIBRARIES.find((l) => l.id === activeLib);
 
   const filteredRooms = useMemo(() => {
-    return library.data.map((room) => filterRoom(room, q)).filter(Boolean);
-  }, [library, q]);
+    if (searching || !activeLibrary) return [];
+    return activeLibrary.data.map((room) => filterRoom(room, q)).filter(Boolean);
+  }, [activeLibrary, q, searching]);
+
+  let headerText;
+  if (searching) {
+    headerText = (
+      <>
+        <strong>Buscando en todas las librerías</strong> — {globalResults.length} resultado
+        {globalResults.length === 1 ? '' : 's'} para «{query.trim()}»
+      </>
+    );
+  } else if (activeLib === 'favoritos') {
+    headerText = (
+      <>
+        <strong>⭐ Favoritos</strong> — prompts que has marcado, de cualquier librería, para acceso rápido.
+      </>
+    );
+  } else {
+    headerText = (
+      <>
+        <strong>{activeLibrary.tool}</strong> — {activeLibrary.description}
+      </>
+    );
+  }
 
   return (
     <div className="app">
@@ -105,7 +170,7 @@ export default function App() {
             <path d="M21 21l-4.3-4.3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
           </svg>
           <input
-            placeholder="Buscar estancia o estilo…"
+            placeholder="Buscar en todas las librerías…"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
@@ -139,7 +204,7 @@ export default function App() {
         </button>
       </div>
 
-      <div className="libtabs">
+      <div className={`libtabs${searching ? ' disabled' : ''}`}>
         {LIBRARIES.map((lib) => (
           <button
             key={lib.id}
@@ -151,17 +216,65 @@ export default function App() {
             <span className="count">{lib.data.length}</span>
           </button>
         ))}
-      </div>
-      <div className="libtab-desc">
-        <strong>{library.tool}</strong> — {library.description}
+        <button
+          className={`libtab${activeLib === FAVORITES_TAB.id ? ' active' : ''}`}
+          onClick={() => setActiveLib(FAVORITES_TAB.id)}
+        >
+          <span>{FAVORITES_TAB.emoji}</span>
+          <span>{FAVORITES_TAB.label}</span>
+          <span className="count">{favorites.size}</span>
+        </button>
       </div>
 
+      <div className="libtab-desc">{headerText}</div>
+
       <div className="main">
-        {filteredRooms.length === 0 ? (
-          <div className="empty">No hay resultados para "{query}" en esta librería.</div>
-        ) : (
-          filteredRooms.map((room) => <Room key={room.id} room={room} />)
+        {searching &&
+          (globalResults.length === 0 ? (
+            <div className="empty">No hay resultados para "{query}" en ninguna librería.</div>
+          ) : (
+            globalResults.map((item) => (
+              <PromptCard
+                key={item.key}
+                id={item.key}
+                number={item.number}
+                title={item.itemTitle}
+                prompt={item.prompt}
+                tag={originTag(item)}
+                defaultOpen={item.key === highlightKey}
+                highlight={item.key === highlightKey}
+              />
+            ))
+          ))}
+
+        {!searching && activeLib === 'favoritos' && (
+          favoriteItems.length === 0 ? (
+            <div className="empty">
+              Aún no tienes favoritos. Pulsa la estrella ☆ en cualquier prompt para guardarlo aquí.
+            </div>
+          ) : (
+            favoriteItems.map((item) => (
+              <PromptCard
+                key={item.key}
+                id={item.key}
+                number={item.number}
+                title={item.itemTitle}
+                prompt={item.prompt}
+                tag={originTag(item)}
+                defaultOpen={item.key === highlightKey}
+                highlight={item.key === highlightKey}
+              />
+            ))
+          )
         )}
+
+        {!searching &&
+          activeLib !== 'favoritos' &&
+          (filteredRooms.length === 0 ? (
+            <div className="empty">No hay resultados en esta librería.</div>
+          ) : (
+            filteredRooms.map((room) => <Room key={room.id} room={room} libId={activeLibrary.id} highlightKey={highlightKey} />)
+          ))}
       </div>
 
       <div className="footer">

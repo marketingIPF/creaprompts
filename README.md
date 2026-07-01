@@ -4,6 +4,13 @@ Biblioteca interna de prompts de IA para RK Palanca Fontestad: Home Staging Digi
 
 Sustituye a https://marketingipf.github.io/creaprompts/
 
+## Funcionalidades
+
+- **Acordeón de dos niveles** — cada estancia se despliega en una lista de títulos; cada prompt se expande individualmente al pulsarlo. El botón "Copiar" funciona sin necesidad de expandir la tarjeta.
+- **⭐ Favoritos** — marca cualquier prompt con la estrella y aparece en la pestaña "Favoritos", persistido en el navegador (localStorage), accesible desde cualquier librería.
+- **🔎 Buscador global** — al escribir algo en el buscador, se busca automáticamente en las 3 librerías a la vez (no solo en la pestaña activa), mostrando de dónde viene cada resultado.
+- **🔗 Enlace directo** — el botón de enlace en cada prompt copia una URL (`?p=...`) que abre la librería, la estancia y el prompt exactos, con un resaltado visual — ideal para compartir con el equipo por Slack/WhatsApp.
+
 ## Contenido
 
 - **🖼️ Home Staging** (`src/data/nanoBanana.json`) — 116 prompts de imagen por estancia (Salón, Dormitorio Principal, Invitados, Niño, Niña, Cocina, Baño, Terraza, Piscina, Despacho, Garaje) + 6 prompts de perfil de comprador en Salón.

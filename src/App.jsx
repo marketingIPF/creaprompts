@@ -71,9 +71,9 @@ function filterRoom(room, query) {
 }
 
 export default function App() {
-  const [activeLib, setActiveLib] = useState(LIBRARIES[1].id);
+  const [activeLib, setActiveLib] = useState(LIBRARIES[0].id);
   const [query, setQuery] = useState('');
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState('light');
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);

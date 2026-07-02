@@ -23,14 +23,14 @@ Tamaño recomendado: 1600×1200px (4:3) o similar panorámico, JPG optimizado (~
 
 ## Funcionalidades
 
-- **Acordeón de dos niveles** — cada estancia se despliega en una lista de títulos; cada prompt se expande individualmente al pulsarlo. El botón "Copiar" funciona sin necesidad de expandir la tarjeta.
+- **Navegación en cuadrícula** — las estancias se muestran como tarjetas en una cuadrícula (2 columnas en móvil); al entrar en una, se ve su lista de prompts con botón "← Estancias" para volver. Cada prompt se expande individualmente y el botón "Copiar" funciona sin expandir.
 - **⭐ Favoritos** — marca cualquier prompt con la estrella y aparece en la pestaña "Favoritos", persistido en el navegador (localStorage), accesible desde cualquier librería.
 - **🔎 Buscador global** — al escribir algo en el buscador, se busca automáticamente en las 3 librerías a la vez (no solo en la pestaña activa), mostrando de dónde viene cada resultado.
 - **🔗 Enlace directo** — el botón de enlace en cada prompt copia una URL (`?p=...`) que abre la librería, la estancia y el prompt exactos, con un resaltado visual — ideal para compartir con el equipo por Slack/WhatsApp.
 
 ## Contenido
 
-- **🖼️ Home Staging** (`src/data/nanoBanana.json`) — 116 prompts de imagen por estancia (Salón, Dormitorio Principal, Invitados, Niño, Niña, Cocina, Baño, Terraza, Piscina, Despacho, Garaje) + 6 prompts de perfil de comprador en Salón.
+- **🖼️ Home Staging** (`src/data/nanoBanana.json`) — 160 prompts de imagen por estancia (Salón, Dormitorio Principal, Invitados, Niño, Niña, Cocina, Baño, Terraza, Piscina, Despacho, Garaje), incluyendo 6 prompts de perfil de comprador en Salón y 4 estilos extra por estancia (Wabi-Sabi, Art Deco, Provenzal, Tropical, Montessori, Gamer, Home Gym... según la estancia).
 - **🎬 Vídeo Reveal** (`src/data/omniFlash.json`) — prompts de 2 pasos (Transformación + Con personas) para Gemini Omni Flash: Salón, Cocina, Dormitorio, Baño, Terraza, Piscina, Despacho, Garaje y 4 variantes de Reformas Luxury (Cocina Gourmet, Baño Suite Spa, Vestidor, Fachada/Entrada).
 - **🌀 Transiciones** (`src/data/kling.json`) — 11 prompts de transición antes/después para Kling AI.
 

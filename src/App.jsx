@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import Room from './components/Room';
+import RoomGrid from './components/RoomGrid';
+import RoomDetail from './components/RoomDetail';
 import PromptCard from './components/PromptCard';
 import Hero from './components/Hero';
 import { useFavorites } from './context/FavoritesContext';
@@ -80,6 +81,7 @@ function originTag(item) {
 
 export default function App() {
   const [activeLib, setActiveLib] = useState(LIBRARIES[0].id);
+  const [selectedRoomId, setSelectedRoomId] = useState(null);
   const [query, setQuery] = useState('');
   const [theme, setTheme] = useState('light');
   const [highlightKey, setHighlightKey] = useState(null);
@@ -99,6 +101,7 @@ export default function App() {
     const match = flat.find((item) => item.key === p);
     if (match) {
       setActiveLib(match.libId);
+      setSelectedRoomId(match.roomId);
       setHighlightKey(p);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -109,11 +112,13 @@ export default function App() {
 
   const handleTabClick = (id) => {
     setQuery('');
+    setSelectedRoomId(null);
     setActiveLib(id);
   };
 
   const handleSelectStyle = (styleTitle) => {
     setActiveLib('nano-banana');
+    setSelectedRoomId(null);
     setQuery(styleTitle);
   };
 
@@ -283,11 +288,29 @@ export default function App() {
 
         {!searching &&
           activeLib !== 'favoritos' &&
-          (filteredRooms.length === 0 ? (
-            <div className="empty">No hay resultados en esta librería.</div>
-          ) : (
-            filteredRooms.map((room) => <Room key={room.id} room={room} libId={activeLibrary.id} highlightKey={highlightKey} />)
-          ))}
+          (() => {
+            if (selectedRoomId) {
+              const room = activeLibrary.data.find((r) => r.id === selectedRoomId);
+              if (room) {
+                return (
+                  <RoomDetail
+                    room={room}
+                    libId={activeLibrary.id}
+                    highlightKey={highlightKey}
+                    onBack={() => {
+                      setSelectedRoomId(null);
+                      setHighlightKey(null);
+                    }}
+                  />
+                );
+              }
+            }
+            return filteredRooms.length === 0 ? (
+              <div className="empty">No hay resultados en esta librería.</div>
+            ) : (
+              <RoomGrid rooms={filteredRooms} onSelect={(id) => setSelectedRoomId(id)} />
+            );
+          })()}
       </div>
 
       <div className="footer">

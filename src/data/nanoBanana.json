@@ -864,6 +864,98 @@
     ]
   },
   {
+    "id": "entrada-recibidor",
+    "emoji": "🚪",
+    "title": "ENTRADA / RECIBIDOR (Entryway)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "entrada-recibidor-1",
+        "number": 1,
+        "title": "Mediterranean Valencia",
+        "prompt": "Stage this entryway in warm Mediterranean Valencian style, keeping the original architecture untouched. Add a light-oak console table, a round rattan-framed mirror above it, a terracotta bowl for keys, a small olive branch in a ceramic vase, a woven jute doormat, and simple wall hooks for coats. Clean surfaces preserving colors. Soft warm afternoon light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-2",
+        "number": 2,
+        "title": "Scandinavian Minimalist",
+        "prompt": "Stage this entryway in bright Scandinavian minimalist style, keeping the original architecture untouched. Add a white bench with under-storage, a round mirror, a small white shoe cabinet, three matte-black wall hooks, and a soft faux-fur throw folded on the bench. Clean surfaces preserving colors. Bright diffused daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-3",
+        "number": 3,
+        "title": "Contemporary Luxury",
+        "prompt": "Stage this entryway in elegant contemporary luxury style, keeping the original architecture untouched. Add a slim marble-top console table with a brass base, a large brass-framed mirror, an upholstered velvet bench, black-and-brass wall hooks, and a small white orchid. Clean surfaces preserving colors. Warm sophisticated light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-4",
+        "number": 4,
+        "title": "Japandi",
+        "prompt": "Stage this entryway in calm Japandi style, keeping the original architecture untouched. Add a low walnut bench with a woven cushion, a round mirror in a thin wood frame, a small ceramic bowl for keys, a single dry branch in a black vase, and a natural-fiber mat. Clean surfaces preserving colors. Soft quiet daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-5",
+        "number": 5,
+        "title": "Industrial Loft",
+        "prompt": "Stage this entryway in refined industrial style, keeping the original architecture untouched. Add a black metal-and-reclaimed-wood console table, black iron wall hooks, a vintage round mirror, and a worn Persian-style runner rug. Clean surfaces preserving colors. Warm moody light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-6",
+        "number": 6,
+        "title": "Modern Minimalist",
+        "prompt": "Stage this entryway in clean modern minimalist style, keeping the original architecture untouched. Add a floating white shelf-console, a slim black-framed mirror, a low bench with a grey cushion, and two discreet wall hooks. Clean surfaces preserving colors. Bright neutral daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-7",
+        "number": 7,
+        "title": "Bohemian Chic",
+        "prompt": "Stage this entryway in bohemian chic style, keeping the original architecture untouched. Add a rattan bench with a patterned cushion, a macramé-framed mirror, a woven basket for shoes, a small potted plant, and a vintage-style runner rug. Clean surfaces preserving colors. Warm late-afternoon light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-8",
+        "number": 8,
+        "title": "Coastal / Costa Mediterránea",
+        "prompt": "Stage this entryway in light coastal Mediterranean style, keeping the original architecture untouched. Add a whitewashed console table, a rope-framed round mirror, a striped runner rug, a glass bowl with shells, and a woven basket for shoes. Clean surfaces preserving colors. Bright airy seaside daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-9",
+        "number": 9,
+        "title": "Mid-Century Modern",
+        "prompt": "Stage this entryway in Mid-Century Modern style, keeping the original architecture untouched. Add a slim teak console table with tapered legs, a sunburst mirror, a geometric-pattern runner rug, and a ceramic bowl for keys. Clean surfaces preserving colors. Warm sunny light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-10",
+        "number": 10,
+        "title": "Modern Rustic Farmhouse",
+        "prompt": "Stage this entryway in modern rustic farmhouse style, keeping the original architecture untouched. Add a reclaimed-wood bench with woven baskets underneath, wrought-iron wall hooks, a simple wood-framed mirror, and a vintage-style runner rug. Clean surfaces preserving colors. Warm golden-hour light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-11",
+        "number": 11,
+        "title": "Art Deco Glam",
+        "prompt": "Stage this entryway in elegant Art Deco style, keeping the original architecture untouched. Add a black-lacquer console table with brass legs, a fan-motif brass mirror, a small velvet bench, and a geometric black-and-cream runner rug. Clean surfaces preserving colors. Warm glamorous light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-12",
+        "number": 12,
+        "title": "Provenzal Francés",
+        "prompt": "Stage this entryway in charming French Provençal style, keeping the original architecture untouched. Add a whitewashed carved-wood console table, a gilded vintage mirror, a ceramic pitcher with dried lavender, and a faded floral runner rug. Clean surfaces preserving colors. Soft golden countryside light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-13",
+        "number": 13,
+        "title": "Wabi-Sabi",
+        "prompt": "Stage this entryway in serene Wabi-Sabi style, keeping the original architecture untouched. Add a raw-edge wooden bench, a simple round mirror, a handmade ceramic bowl for keys, a clay vase with a dried branch, and a rough natural-fiber mat. Clean surfaces preserving colors. Soft diffused calm light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "entrada-recibidor-14",
+        "number": 14,
+        "title": "Urban Contemporary",
+        "prompt": "Stage this entryway in sharp urban contemporary style, keeping the original architecture untouched. Add a dark-wood floating console, a black-framed rectangular mirror, a sculptural wall-mounted hook rail, and a low-pile graphite runner rug. Clean surfaces preserving colors. Crisp cool daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      }
+    ]
+  },
+  {
     "id": "terraza-o-balcón-terrace-/-balcony",
     "emoji": "🌿",
     "title": "TERRAZA O BALCÓN (Terrace / Balcony)",
@@ -952,6 +1044,98 @@
         "number": 14,
         "title": "Family Friendly",
         "prompt": "Stage this terrace in cheerful family style, keeping the structure untouched. Add a sturdy outdoor dining table with four chairs and two child-safe stools, a compact storage bench with cushions, a small chalkboard easel corner, potted herbs at safe height, and warm string lights. Add a washable outdoor rug. Keep railing and floor exactly as original. Bright welcoming daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      }
+    ]
+  },
+  {
+    "id": "atico-solarium",
+    "emoji": "☀️",
+    "title": "ÁTICO / SOLÁRIUM (Rooftop Solarium)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "atico-solarium-1",
+        "number": 1,
+        "title": "Ibiza Chill-Out",
+        "prompt": "Stage this rooftop solarium in Ibiza chill-out style, keeping the structure and railing untouched. Add white Balinese-style daybeds with flowing canopies, low wooden tables with lanterns, oversized floor cushions, potted olive trees, and warm string lights across the space. Golden-hour to dusk relaxed luxury ambiance. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-2",
+        "number": 2,
+        "title": "Mediterranean Lounge",
+        "prompt": "Stage this rooftop solarium in Mediterranean lounge style, keeping the structure and railing untouched. Add a cream outdoor sofa set with terracotta cushions, a low travertine coffee table, large potted olive and citrus trees, a pergola-style shade cloth, and a woven outdoor rug. Bright warm Mediterranean daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-3",
+        "number": 3,
+        "title": "Rooftop Bar",
+        "prompt": "Stage this rooftop solarium as a stylish rooftop bar, keeping the structure and railing untouched. Add a compact outdoor bar counter with stools, string lights overhead, tall potted plants for privacy screening, a small high table set, and ambient lantern lighting. Warm dusk city-view ambiance. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-4",
+        "number": 4,
+        "title": "Wellness Jacuzzi Retreat",
+        "prompt": "Stage this rooftop solarium as a wellness retreat, keeping the structure and railing untouched. Add a round inflatable-free built-in-look jacuzzi styling area with wooden decking tiles, minimalist loungers, bamboo screening, folded white towels on a teak rack, and eucalyptus branches in a large vase. Calm spa-like morning light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-5",
+        "number": 5,
+        "title": "Urban Garden",
+        "prompt": "Stage this rooftop solarium as a lush urban garden, keeping the structure and railing untouched. Add raised planter boxes with herbs and flowers, a small bistro table with two chairs, a vertical living-wall styling section, string lights, and a watering can as a decorative detail. Fresh vibrant daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-6",
+        "number": 6,
+        "title": "Family BBQ Terrace",
+        "prompt": "Stage this rooftop solarium as a family BBQ terrace, keeping the structure and railing untouched. Add a built-in-look barbecue station with a small prep counter, a sturdy outdoor dining table with six chairs, a shaded umbrella, potted plants, and a kids' play mat corner. Bright cheerful midday light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-7",
+        "number": 7,
+        "title": "Boho Rooftop",
+        "prompt": "Stage this rooftop solarium in bohemian style, keeping the structure and railing untouched. Add a low rattan seating area with patterned cushions, a macramé hanging chair, layered outdoor rugs, potted palms, and warm string lights woven overhead. Warm late-afternoon light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-8",
+        "number": 8,
+        "title": "Scandinavian Outdoor",
+        "prompt": "Stage this rooftop solarium in bright Scandinavian outdoor style, keeping the structure and railing untouched. Add a light-wood outdoor dining set with white cushions, a small planter box with greenery, a simple pergola-style shade, and a natural-fiber outdoor rug. Crisp bright daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-9",
+        "number": 9,
+        "title": "Industrial Rooftop",
+        "prompt": "Stage this rooftop solarium in industrial style, keeping the structure and railing untouched. Add black-metal-framed outdoor furniture with cognac cushions, Edison-bulb string lights, a reclaimed-wood side table, and potted olive trees in metal planters. Warm evening tungsten-style light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-10",
+        "number": 10,
+        "title": "Tropical Oasis",
+        "prompt": "Stage this rooftop solarium as a tropical oasis, keeping the structure and railing untouched. Add rattan loungers with palm-print cushions, large potted palms and monstera, a small tiki-style shade umbrella, a woven side table, and a string of warm lights. Bright vacation-style daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-11",
+        "number": 11,
+        "title": "Luxury Penthouse Deck",
+        "prompt": "Stage this rooftop solarium as a luxury penthouse deck, keeping the structure and railing untouched. Add sleek modular outdoor sofas in charcoal with gold-accent cushions, a fire-pit-style low table, sculptural planters with olive trees, and elegant lantern lighting. Cinematic warm evening light with city-view ambiance. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-12",
+        "number": 12,
+        "title": "Japandi Zen Rooftop",
+        "prompt": "Stage this rooftop solarium in calm Japandi zen style, keeping the structure and railing untouched. Add a low wooden deck seating area with linen cushions, a small stone-and-gravel zen corner, a single sculptural pine in a pot, and a paper-style lantern. Soft quiet daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-13",
+        "number": 13,
+        "title": "Night Lounge Fire Pit",
+        "prompt": "Stage this rooftop solarium as a night lounge, keeping the structure and railing untouched. Add low outdoor sofas around a central fire-pit-style table, floor cushions, warm string lights overhead, and potted plants softly uplit. Warm dusk-to-night ambiance with fire-pit glow. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "atico-solarium-14",
+        "number": 14,
+        "title": "Modern Dining Rooftop",
+        "prompt": "Stage this rooftop solarium as a modern dining terrace, keeping the structure and railing untouched. Add a sleek outdoor dining table with eight chairs, a linear pendant-style light fixture, minimalist planters with structured greenery, and a large outdoor rug defining the space. Bright elegant golden-hour light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
       }
     ]
   },

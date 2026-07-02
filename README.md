@@ -30,7 +30,7 @@ Tamaño recomendado: 1600×1200px (4:3) o similar panorámico, JPG optimizado (~
 
 ## Contenido
 
-- **🖼️ Home Staging** (`src/data/nanoBanana.json`) — 188 prompts de imagen en 13 estancias (Salón, Dormitorio Principal, Invitados, Niño, Niña, Adolescente Chico, Adolescente Chica, Cocina, Baño, Terraza, Piscina, Despacho, Garaje), incluyendo 6 prompts de perfil de comprador en Salón y 4 estilos extra por estancia (Wabi-Sabi, Art Deco, Provenzal, Tropical, Montessori, Gamer, Home Gym... según la estancia).
+- **🖼️ Home Staging** (`src/data/nanoBanana.json`) — 216 prompts de imagen en 15 estancias (Salón, Dormitorio Principal, Invitados, Niño, Niña, Adolescente Chico, Adolescente Chica, Cocina, Baño, Entrada/Recibidor, Terraza, Ático/Solárium, Piscina, Despacho, Garaje), incluyendo 6 prompts de perfil de comprador en Salón y 4 estilos extra por estancia (Wabi-Sabi, Art Deco, Provenzal, Tropical, Montessori, Gamer, Home Gym... según la estancia).
 - **🎬 Vídeo Reveal** (`src/data/omniFlash.json`) — prompts de 2 pasos (Transformación + Con personas) para Gemini Omni Flash: Salón, Cocina, Dormitorio, Baño, Terraza, Piscina, Despacho, Garaje y 4 variantes de Reformas Luxury (Cocina Gourmet, Baño Suite Spa, Vestidor, Fachada/Entrada).
 - **🌀 Transiciones** (`src/data/kling.json`) — 11 prompts de transición antes/después para Kling AI.
 

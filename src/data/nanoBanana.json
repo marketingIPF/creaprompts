@@ -496,6 +496,190 @@
     ]
   },
   {
+    "id": "dormitorio-adolescente-chico",
+    "emoji": "🎧",
+    "title": "DORMITORIO ADOLESCENTE CHICO (Teen Boy's Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-adolescente-chico-1",
+        "number": 1,
+        "title": "Modern Minimal Teen",
+        "prompt": "Stage this teen boy's bedroom in clean modern minimal style, keeping the original architecture untouched. Add a platform bed with charcoal and white layered bedding, a floating white desk with an ergonomic chair, a slim black bookshelf with organized books and a plant, a wall-mounted lamp, and a full-length mirror. Add simple grey curtains on existing windows and a low-pile graphite rug. Clean surfaces preserving colors. Crisp neutral daylight, tidy and mature. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-2",
+        "number": 2,
+        "title": "Gamer Pro Setup",
+        "prompt": "Stage this teen boy's bedroom in professional gamer style, keeping the original architecture untouched. Add a bed with dark grey bedding with a subtle neon-accent cushion, an L-shaped gaming desk with dual monitors and an ergonomic gaming chair, a headset stand, LED strip glow along shelving with games and collectible figures, and a small mini-fridge styling. Add blackout curtains on existing windows and a dark geometric rug. Clean surfaces preserving colors. Controlled ambient lighting with subtle color glow, tidy and photogenic. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-3",
+        "number": 3,
+        "title": "Urban Street Style",
+        "prompt": "Stage this teen boy's bedroom in urban streetwear style, keeping the original architecture untouched. Add a low bed with black and white bedding and a graphic cushion, an open clothing rack with neatly displayed sneakers on a shelf below, a desk with a skateboard-deck wall display above, framed street-art prints, and a black metal shelf with caps and books. Add dark grey curtains on existing windows and a monochrome rug. Clean surfaces preserving colors. Cool urban daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-4",
+        "number": 4,
+        "title": "Industrial Teen",
+        "prompt": "Stage this teen boy's bedroom in soft industrial style, keeping the original architecture untouched. Add a black metal-frame bed with denim-blue and grey bedding, a reclaimed-wood desk with a metal task lamp, pipe-style wall shelving with books, a metal locker-style cabinet, and a vintage pendant-style table lamp. Add charcoal curtains on existing windows and a worn-look rug. Clean surfaces preserving colors. Warm loft-style light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-5",
+        "number": 5,
+        "title": "Skate & Surf",
+        "prompt": "Stage this teen boy's bedroom in relaxed skate-and-surf style, keeping the original architecture untouched. Add a bed with ocean-blue and sand-tone bedding, a surfboard leaning safely in a corner, skateboard-deck wall art, a light-wood desk with chair, a woven basket with towels, and a string of small pennant flags. Add breezy light curtains on existing windows and a jute rug. Clean surfaces preserving colors. Bright coastal daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-6",
+        "number": 6,
+        "title": "Music Producer",
+        "prompt": "Stage this teen boy's bedroom in creative music-producer style, keeping the original architecture untouched. Add a bed with dark navy bedding, a studio desk with a MIDI keyboard, monitor speakers on isolation pads and a laptop stand, studio headphones on a hook, a guitar on a wall mount, and acoustic-panel styled wall section. Add blackout curtains on existing windows and a dark rug. Clean surfaces preserving colors. Moody focused lighting with a warm desk lamp. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-7",
+        "number": 7,
+        "title": "Deportivo",
+        "prompt": "Stage this teen boy's bedroom in sporty athletic style, keeping the original architecture untouched. Add a bed with team-color bedding in navy and white, a shelf with trophies and a framed jersey display, a basketball in a stand, a desk with chair, a duffel-bag bench, and a wall-mounted mini basketball hoop over a door if present. Add navy curtains on existing windows and a durable rug. Clean surfaces preserving colors. Energetic bright daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-8",
+        "number": 8,
+        "title": "Scandinavian Study",
+        "prompt": "Stage this teen boy's bedroom in bright Scandinavian study style, keeping the original architecture untouched. Add a light-wood bed with white and grey layered bedding, a white desk with an ergonomic chair and an organized pinboard, a light-wood bookshelf with color-sorted books and a plant, and a floor lamp by a reading corner chair. Add white sheer curtains on existing windows and a soft grey rug. Clean surfaces preserving colors. Fresh bright daylight, tidy and inspiring. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-9",
+        "number": 9,
+        "title": "Japandi Calm",
+        "prompt": "Stage this teen boy's bedroom in calm Japandi style, keeping the original architecture untouched. Add a low platform bed with oat and charcoal linen bedding, a walnut desk with a simple chair, one low shelf with few chosen objects and a bonsai, and a paper-shade floor lamp. Add linen curtains on existing windows and a natural-fiber rug. Clean surfaces preserving colors. Quiet diffused daylight, serene and uncluttered. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-10",
+        "number": 10,
+        "title": "Mid-Century Retro",
+        "prompt": "Stage this teen boy's bedroom in warm mid-century retro style, keeping the original architecture untouched. Add a teak-frame bed with mustard and navy bedding, a vintage-style desk with an Eames-style chair, a record player on a slatted console with vinyl display, a Sputnik-style table lamp, and a graphic geometric rug. Add mustard-tone curtains on existing windows. Clean surfaces preserving colors. Warm sunny retro light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-11",
+        "number": 11,
+        "title": "Cine & Media",
+        "prompt": "Stage this teen boy's bedroom in cozy cinema-media style, keeping the original architecture untouched. Add a bed with charcoal bedding facing a wall-mounted TV with a soundbar, a media console with organized consoles and controllers, framed minimalist movie posters, a popcorn-bowl styled side table, and warm LED backlight glow behind the TV. Add blackout curtains on existing windows and a plush dark rug. Clean surfaces preserving colors. Warm dim media-room ambiance, tidy and photogenic. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-12",
+        "number": 12,
+        "title": "Aventura & Viajes",
+        "prompt": "Stage this teen boy's bedroom in adventure-travel style, keeping the original architecture untouched. Add a bed with khaki and forest-green bedding, a large framed world map with pins above the desk, a vintage-style trunk at the foot of the bed, a bookshelf with globes and travel books, and a duffel-and-boots corner styling. Add linen-look curtains on existing windows and a kilim-style rug. Clean surfaces preserving colors. Warm adventurous daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-13",
+        "number": 13,
+        "title": "Boho Natural",
+        "prompt": "Stage this teen boy's bedroom in relaxed boho natural style, keeping the original architecture untouched. Add a bed with layered earth-tone bedding and a striped throw, a rattan chair with a cushion, floating wood shelves with plants and books, a woven wall hanging, and a floor cushion corner with a guitar. Add cream curtains on existing windows and a vintage-look rug. Clean surfaces preserving colors. Warm late-afternoon light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chico-14",
+        "number": 14,
+        "title": "Dark Academia",
+        "prompt": "Stage this teen boy's bedroom in dark academia style, keeping the original architecture untouched. Add a bed with deep-green and charcoal bedding, a dark-wood desk with a brass banker's lamp and stacked classic books, a tall dark bookshelf with globes and vintage objects, a framed botanical and map print set, and a leather reading chair. Add heavy curtains on existing windows and a Persian-style rug. Clean surfaces preserving colors. Warm scholarly evening light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      }
+    ]
+  },
+  {
+    "id": "dormitorio-adolescente-chica",
+    "emoji": "🎨",
+    "title": "DORMITORIO ADOLESCENTE CHICA (Teen Girl's Bedroom)",
+    "rule": null,
+    "prompts": [
+      {
+        "id": "dormitorio-adolescente-chica-1",
+        "number": 1,
+        "title": "Modern Pastel Chic",
+        "prompt": "Stage this teen girl's bedroom in modern pastel chic style, keeping the original architecture untouched. Add a bed with blush, lilac and cream layered bedding, a white desk with a clear acrylic chair and a neat organizer set, a white bookshelf with color-sorted books and small plants, and a round mirror over a slim dresser. Add sheer white curtains on existing windows and a soft blush rug. Clean surfaces preserving colors. Fresh bright daylight, tidy and stylish. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-2",
+        "number": 2,
+        "title": "Scandinavian Bright",
+        "prompt": "Stage this teen girl's bedroom in bright Scandinavian style, keeping the original architecture untouched. Add a light-wood bed with white and sage layered bedding, a white desk with ergonomic chair and pinboard with photos and postcards, a light bookshelf with plants, and a cozy reading corner with a sheepskin-draped chair. Add white sheer curtains on existing windows and a soft grey rug. Clean surfaces preserving colors. Airy Nordic daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-3",
+        "number": 3,
+        "title": "Boho Dreamy",
+        "prompt": "Stage this teen girl's bedroom in dreamy boho style, keeping the original architecture untouched. Add a bed with layered cream and terracotta bedding with a fringed throw, a canopy of sheer fabric over the headboard area, macramé wall hanging, a rattan chair with cushions, string lights, and plants on floating shelves. Add gauze curtains on existing windows and a vintage Berber-style rug. Clean surfaces preserving colors. Warm golden-hour glow. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-4",
+        "number": 4,
+        "title": "Content Creator",
+        "prompt": "Stage this teen girl's bedroom in aesthetic content-creator style, keeping the original architecture untouched. Add a bed with clean white and beige bedding, a vanity desk with a ring light and organized beauty display, a clothing rack with a curated outfit selection, an LED-lit shelf with plants and books, and a full-length mirror with warm string lights around it. Add light curtains on existing windows and a fluffy cream rug. Clean surfaces preserving colors. Bright even lighting, photogenic and tidy. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-5",
+        "number": 5,
+        "title": "Parisian Chic",
+        "prompt": "Stage this teen girl's bedroom in elegant Parisian chic style, keeping the original architecture untouched. Add a bed with white bedding and a black-trim accent cushion, a vintage-style vanity with a round mirror and perfume tray, a gold-frame fashion print set, a small tufted stool, and a slim bookshelf with fashion books and a small Eiffel tower object. Add long ivory curtains on existing windows and a soft neutral rug. Clean surfaces preserving colors. Soft romantic Parisian light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-6",
+        "number": 6,
+        "title": "Japandi Study",
+        "prompt": "Stage this teen girl's bedroom in calm Japandi study style, keeping the original architecture untouched. Add a low bed with oat and clay linen bedding, a walnut desk with a simple chair and a single ceramic pen holder, one low shelf with few chosen objects and a small plant, and a paper-shade lamp. Add linen curtains on existing windows and a natural-fiber rug. Clean surfaces preserving colors. Quiet diffused daylight, serene and focused. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-7",
+        "number": 7,
+        "title": "Coastal Fresh",
+        "prompt": "Stage this teen girl's bedroom in fresh coastal style, keeping the original architecture untouched. Add a white bed with navy-striped and sand-tone bedding, a whitewashed desk with a wicker chair, a shelf with shells and beach photos in light frames, a woven basket with throws, and a surf-poster print. Add breezy white curtains on existing windows and a sisal rug. Clean surfaces preserving colors. Bright seaside daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-8",
+        "number": 8,
+        "title": "Dark Academia",
+        "prompt": "Stage this teen girl's bedroom in dark academia style, keeping the original architecture untouched. Add a bed with burgundy and charcoal bedding, a dark-wood desk with a brass lamp, stacked classics and a vintage typewriter styling, a tall bookshelf with dried flowers and candles, and a framed botanical print set. Add heavy curtains on existing windows and a Persian-style rug. Clean surfaces preserving colors. Warm scholarly evening light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-9",
+        "number": 9,
+        "title": "Music & Creative",
+        "prompt": "Stage this teen girl's bedroom in creative music corner style, keeping the original architecture untouched. Add a bed with cream and dusty-rose bedding, a keyboard on a stand with headphones, a guitar on a wall mount, a desk with a laptop and notebook styling, polaroid photos on a string with clips, and a cozy floor cushion corner. Add soft curtains on existing windows and a warm-tone rug. Clean surfaces preserving colors. Warm inspiring afternoon light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-10",
+        "number": 10,
+        "title": "Minimal Study Focus",
+        "prompt": "Stage this teen girl's bedroom in minimalist study-focus style, keeping the original architecture untouched. Add a bed with crisp white and grey bedding, a clean white desk with a single monitor, an ergonomic chair, a wall-mounted shelf with only essential books and one plant, and a simple wall calendar-organizer. Add plain light curtains on existing windows and a low-pile grey rug. Clean surfaces preserving colors. Clear bright daylight, distraction-free and orderly. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-11",
+        "number": 11,
+        "title": "Botanical Plant Lover",
+        "prompt": "Stage this teen girl's bedroom in botanical plant-lover style, keeping the original architecture untouched. Add a bed with green and cream botanical-print bedding, layered potted plants of varied heights on stands and shelves, a light-wood desk with a small terrarium, hanging planters near the existing window, and framed botanical illustrations. Add light cotton curtains on existing windows and a natural rug. Clean surfaces preserving colors. Fresh vibrant garden-light feel. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-12",
+        "number": 12,
+        "title": "Vintage Retro 70s",
+        "prompt": "Stage this teen girl's bedroom in playful retro 70s style, keeping the original architecture untouched. Add a bed with mustard, cream and burnt-orange bedding, a rattan headboard feel via styling, a vintage record player on a low console with vinyl display, a sunburst mirror, and a beanbag corner with a crochet throw. Add patterned curtains on existing windows and a retro-pattern rug. Clean surfaces preserving colors. Warm nostalgic sunny light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-13",
+        "number": 13,
+        "title": "Glam Beauty Corner",
+        "prompt": "Stage this teen girl's bedroom in soft glam style, keeping the original architecture untouched. Add a bed with ivory and champagne satin-touch bedding, a Hollywood-style vanity with lighted mirror and organized makeup display, a faux-fur stool, a gold-accent shelf with perfumes and framed quotes, and a full-length gold-trim mirror. Add elegant curtains on existing windows and a plush cream rug. Clean surfaces preserving colors. Warm flattering glam light. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      },
+      {
+        "id": "dormitorio-adolescente-chica-14",
+        "number": 14,
+        "title": "Art Studio Creative",
+        "prompt": "Stage this teen girl's bedroom in creative art-studio style, keeping the original architecture untouched. Add a bed with white and colorful-accent bedding, a large worktable with organized art supplies in jars, an easel with a canvas, a wall gallery of her artwork in simple frames, a pegboard with tools and washi tape, and a rolling cart. Add light curtains on existing windows and a washable rug. Clean surfaces preserving colors. Bright inspiring daylight. STRICT PRESERVATION RULES: Do NOT modify the architectural structure of the room. Do NOT change wall positions, ceiling height, window or door locations, or floor layout. Do NOT alter the kitchen cabinet structure, the swimming pool shape, or any built-in element. You may ONLY clean floors, walls and ceilings (remove dirt, stains, scuffs) WITHOUT changing their original color or material. You may add or replace curtains on existing windows, matching the new design. Keep the original camera angle, lens, perspective, lighting direction and shadows consistent with the source photo. Photorealistic real estate photography, natural daylight, sharp focus, no text, no watermarks, no people unless specified."
+      }
+    ]
+  },
+  {
     "id": "cocina-kitchen",
     "emoji": "🍳",
     "title": "COCINA (Kitchen)",
